@@ -1,0 +1,75 @@
+This file describes how to use the current developed LUP system.
+
+To execute the program use a shell command with the structure bellow:
+
+	java -jar LUP.jar CORPUS_DIR
+	
+	- CORPUS_DIR: directory where corpus files to be processed must be 
+	(the base dir is defined in PROJECT_DIR/resources/qa/config/config_en.xml in the corpusDir element)
+
+In each CORPUS_DIR should be a .properties file. The following properties are available:
+	processNE=FLAG
+	ne=NE_DICTIONARY_PATH
+
+	NE_DICTIONARY_PATH: path, relative to where the application is being executed, to the named entities dictionary file.
+	FLAG: true or false, if the NER should be done or not.
+	
+The format for NE_DICTIONARY_PATH file must be:
+	ENTITY_CATEGORY\tENTITY
+For example a set of actors (different ENTITY) should have the same ENTITY_CATEGORY, which could be ACTOR.
+		
+There are three distinct execution modes in LUP: develop, deploy, cross validation. 
+The mode can be configured in PROJECT_DIR/resources/qa/config/config_en.xml, in the element <mode>.
+
+	-develop: the corpus is randomly divided in train and test, then a classifier is created. 
+	The results can be view in the directory specified by the <systemResultsDir> element of the config file.
+	-cross validation: devides the corpus in N partions and performs N test folds (N-1 train partitions, 1 test partitions for each fold).
+	An average of the folds' results in calculated.
+	-deploy: a classifer is trained with all corpus.
+
+Configuration file: from the project's directory the path to this file is PROJECT_DIR/resources/qa/config/config_en.xml. 
+Below is a list of configurable properties and their meaning.
+	
+	- NLUTechniques
+		Techniques to perform classification (which corresponds to the NLU process)
+		- svm: in the file svmConfig.xml n-gram models (<features> element) can be chosen.
+			- features
+				u: unigrams
+				b: bigrams
+				t: trigrams
+				bu: binary unigrams
+				bb: binary bigrams
+				bt: binary trigrams
+				Note: Any combination of these features maybe used. Each feature must be delimited by the "-" character, for example:
+					-u-b-
+				It also possible to test multiple svm classifiers. For instance, if svmConfig.xml contains <features>-u-,-b-</features>
+				two svm clasifiers are produced.
+		- jotfidf, jaccardOverlap, jaccard, dice and overlap: all these techniques are string distance measures. Again, n-grams models can be
+		configured in distanceConfig.xml. Also, multiple n-grams versions of these classifiers can be tested in a single develop/cross validation run.
+		- clm: needs the NPCEditor component of vhtoolkit (http://vhtoolkit.ict.usc.edu/index.php/Main_Page). Detailed instructions on how to integrate
+		both modules are not available, but essentially look at clmConfig.xml to provide a path so that LUP can find NPCEditor.
+	Note: multiple NLUTEchniques can be tested at once. In order to do that in the NLUTechniques element separate them with commas.
+	Example: <NLUTechniques>svm, dice, jaccard</NLUTechniques>
+	
+	- stopwordsFlags
+		If this preprocessing module is activated all words that are in the file specified by <stopwordsFile> will be removed from the corpus.
+		In a single run it possible to test with and without stopword removal. To do this simply define <stopwordsFlags>true, false</stopwordsFlags>.
+	- normalizeStringFlags
+		Removes ponctuation and transforms corpus in lowcaps. In a single run it possible to test with and without normalization.
+		To do this simply define <normalizeStringFlags>true, false</normalizeStringFlags>.
+	- posTaggerFlags
+		Activating POS(part of speech)Tagging preprocessing means that the if a POS tags defined in the element <lemmaRule> of the config_tagger.xml file
+		appear, then the corresponding word is substituted by POSTag+lemma. The available tags are described in resources/qa/tagset/parole-pt. The POSTagging
+		task is performed by TreeTagger software (http://www.ims.uni-stuttgart.de/projekte/corplex/TreeTagger/DecisionTreeTagger.html). 
+		After installation configure the <treeTaggerPath> element of config_tree_tagger.xml file. In a single run it possible to test with and without POSTagging.
+		To do this simply define <posTaggerFlags>true, false</posTaggerFlags>.
+	
+Using the system as a module in another project: 
+
+	- Configure to LUP to be in deploy mode. Use l2f.ClassifierApp.main method to obtain a classifier. The main method should receive the path (reletive to <corpusDir> element)
+	to the directory where corpus files are to be used as train. Check the l2f.HelloWorldLUP class for a simple example.
+	If LUP's configuration are to produce multiple classifiers only one will be deployed (the first). Therefore it is advisable to
+	have the configuration to produce a single classifier.
+	
+An example corpus, with cinema domain, is provided. To run the classification use the following command:
+	java -jar LUP.jar cinema

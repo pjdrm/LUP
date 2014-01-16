@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!-- Feature combinations used in the classifier -->
+	<features>-u-</features>
+	<utteranceWeight>0.8</utteranceWeight>
+	<!-- SimpleWordFrequencyCounter, TFIDFWordFrequencyCounter -->
+	<frequencyCounter>TFIDFWordFrequencyCounter, SimpleWordFrequencyCounter</frequencyCounter>
+	<k-neighbours>6,1</k-neighbours>
+</config>

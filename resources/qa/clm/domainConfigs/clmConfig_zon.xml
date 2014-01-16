@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<plistFile>resources/qa/clm/plists/Zon.plist</plistFile>
+	<agent>Zon</agent>
+</config>

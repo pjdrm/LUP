@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!-- generate test or consistency measure -->
+	<mode>generate test</mode>
+	<userTestFile>resources/qa/clm/clmRun.lnk</userTestFile>
+	<resultsDir>resources/qa/systemResults</resultsDir>
+	<measure>Cronbach</measure>
+</config>

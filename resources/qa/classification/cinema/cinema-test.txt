@@ -1,0 +1,28 @@
+﻿QT_WHO_MAIN_ACT  Como se chama a pessoa que foi protagonista de The Godfather?
+QT_WHO_MAIN_ACT  Como se chama o protagonista de The Shawshank Redemption?
+QT_WHO_DIRECTED  De quem é o Titanic?
+QT_WHO_DIRECTED  Qual é que foi o realizador do Casablanca?
+QT_WHO_NOMINATED  Qual o nome dos nomeados em DATA para o óscar de melhor actriz?
+QT_WHICH_YEAR_FILM  Quando foi realizado o Forrest Gump?
+QT_WHO_WON  o óscar de melhor actriz foi ganho por quem em DATA?
+QT_WHICH_WON  Como se chama o filme que ganhou o óscar de melhor filme este ano?
+QT_WHO_ACT  Qual o elenco do filme The Lord of the Rings: The Return of the King?
+QT_WHICH_WON  Que filme ganhou o Óscar em DATA?
+QT_WHO_WON  Quem é que ganhou em DATA o óscar de melhor actriz?
+QT_WHO_ACT  Quem participa em Pulp Fiction?
+QT_WHO_ACTS_IN_TWO  Quem participou nos filmes The Dark Knight?
+QT_DIED_WHERE  Morreu Onde o Ingrid Bergman?
+QT_WHO_DIRECTED  Quem realizou o filme Gone with the Wind?
+QT_WHO_MAIN_ACT  no The Wizard of Oz, qual foi o protagonista?
+QT_WHO_ACT  Quem são as pessoas que entram no Scarface?
+QT_HOW_MANY_NOMINATIONS_FILM  Quantas nomeações ganhou o The Matrix?
+QT_WHO_DIRECTED  o filme  American Beauty  foi realizado por que cineasta chinês?
+QT_WHO_DIRECTED  Quem realizou o filme  Apocalypse Now ?
+QT_WHICH_WON  Que filme ganhou o óscar de melhor actriz em DATA?
+QT_HOW_MANY_OSCARS  o actor Hugh Jackman já ganhou quantos óscares?
+QT_WHO_WON  no ano de DATA quem recebeu o óscar de melhor actriz?
+QT_WHO_DIRECTED  Quem realizou o filme Reservoir Dogs?
+QT_WHO_DIRECTED  Quem é o realizador do filme Die Hard?
+QT_BORN_WHEN  Quando nasceu o Orlando Bloom?
+QT_BORN_WHERE  Viggo Mortensen, Onde é que nasceu?
+QT_WHO_ACT  Qual o nome do actor que entrou em Amadeus?

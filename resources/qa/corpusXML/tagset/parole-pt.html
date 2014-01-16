@@ -1,0 +1,2783 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+
+	
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+
+	
+	
+  <title>ETIQUETAS EAGLES REDUCIDAS</title>
+ 
+</head>
+
+
+<body dir="ltr" lang="ca-ES">
+
+<h3>ETIQUETAS EAGLES (v. 2.0) REDUCIDAS</h3>
+<p align="justify"> Esta documentación fue elaborada a partir de la <a href="http://nlp.lsi.upc.edu/freeling/doc/userman/parole-es.html" target="_blank">documentación</a> del proyecto <a href="http://nlp.lsi.upc.edu/freeling/" target="_blank">FreeLing</a> </p>
+
+<p align="justify">El <b>analizador morfológico Tree-Tagger para el
+portugués</b> utiliza un conjunto de etiquetas para representar la
+información morfológica de las palabras. Este conjunto
+de etiquetas se basa en las etiquetas propuestas por el grupo <a href="http://www.ilc.cnr.it/EAGLES96/home.html" target="_blank">EAGLES</a>
+para la anotación morfosintáctica de lexicones y corpus
+para todas las lenguas europeas. Así pues está previsto
+que recojan los accidentes gramaticales existentes en las lenguas
+europeas. Es por esto que dependiendo de la lengua hay atributos que
+pueden no especificarse. Si un atributo no se especifica significa
+que o bien expresa un tipo de información que no existe en la
+lengua o que la información no se considera relevante. La
+infraespecificación de un atributo se marca con el 0. 
+</p>
+
+<p>A continuación presentamos las etiquetas que el analizador morfológico utiliza para el portugués en formato de tabla. <b>Aquí sólo ofrecemos la versión reducida utilizada por Tree-Tagger</b>. 
+La versión expandida de Tree-Tagger es la misma que utiliza <a href="http://nlp.lsi.upc.edu/freeling/" target="_blank">FreeLing</a> para el <a href="http://nlp.lsi.upc.edu/freeling/doc/userman/parole-es.html" target="_blank">castellano</a>.
+</p>
+
+<p>Para cada categoría se presentan los atributos, valores y
+códigos que puede tomar:</p>
+
+<center>
+	
+<table border="1" cellpadding="2" cellspacing="2" width="377">
+
+		<tbody>
+    <tr>
+
+			<th colspan="4">
+				
+      <p>ETIQUETAS</p>
+
+			</th>
+
+		</tr>
+
+		<tr>
+
+			<th width="25%">
+				
+      <p>Posición</p>
+
+			</th>
+
+			<th width="25%">
+				
+      <p>Atributo</p>
+
+			</th>
+
+			<th width="25%">
+				
+      <p>Valor</p>
+
+			</th>
+
+			<th width="25%">
+				
+      <p>Código</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="25%">
+				
+      <p align="center"><i>Columna 1</i></p>
+
+			</td>
+
+			<td width="25%">
+				
+      <p align="center"><i>Columna 2</i></p>
+
+			</td>
+
+			<td width="25%">
+				
+      <p align="center"><i>Columna 3</i></p>
+
+			</td>
+
+			<td width="25%">
+				
+      <p align="center"><i>Columna 4</i></p>
+
+			</td>
+
+		</tr>
+
+	
+  </tbody>
+</table>
+
+</center>
+
+<p align="justify">En la <i>columna 1</i> encontramos un número
+que hace referencia al orden y posición en que aparecen los
+atributos. La <i>columna 2</i> hace referencia a los atributos, el
+número de los cuales varía dependiendo de la categoría.
+En la <i>columna 3</i> encontramos los valores que puede tomar cada
+atributo y, finalmente, la <i>columna 4</i> representa los códigos
+que se han establecido para su representación. Las etiquetas
+en sí sólo son los códigos (columna 4) y se sabe
+a qué atributo pertenecen por la posición (columna 1)
+en la que se encuentran. 
+</p>
+
+<h3><a name="índice"></a>TABLAS DE ETIQUETAS POR CATEGORÍA</h3>
+
+<ol>
+
+	<li>
+    <p style="margin-bottom: 0cm;"><a href="#adjetivos">ADJETIVOS</a>
+		</p>
+
+	</li>
+  <li>
+    <p style="margin-bottom: 0cm;"><a href="#adverbios">ADVERBIOS</a>
+		</p>
+
+	</li>
+  <li>
+    <p style="margin-bottom: 0cm;"><a href="#determinantes">DETERMINANTES</a>
+		</p>
+
+	</li>
+  <li>
+    <p style="margin-bottom: 0cm;"><a href="#nombres">NOMBRES</a> 
+	</p>
+
+	</li>
+  <li>
+    <p style="margin-bottom: 0cm;"><a href="#verbos">VERBOS</a> 
+	</p>
+
+	</li>
+  <li>
+    <p style="margin-bottom: 0cm;"><a href="#pronombres">PRONOMBRES</a>
+		</p>
+
+	</li>
+  <li>
+    <p style="margin-bottom: 0cm;"><a href="#conjunciones">CONJUNCIONES</a>
+		</p>
+
+	</li>
+  <li>
+    <p style="margin-bottom: 0cm;"><a href="#preposiciones">INTERJECCIONES</a>
+		</p>
+
+	</li>
+  <li>
+    <p style="margin-bottom: 0cm;"><a href="#preposiciones">PREPOSICIONES</a>
+		</p>
+
+	</li>
+  <li>
+    <p style="margin-bottom: 0cm;"><a href="#signos">SIGNOS DE
+	PUNTUACIÓN</a> 
+	</p>
+
+	</li>
+  <li>
+    <p style="margin-bottom: 0cm;"><a href="#cifras">NUMERALES</a> 
+	</p>
+
+	</li>
+  
+</ol>
+
+<hr>
+<h3><a name="adjetivos"></a><b>1. ADJETIVOS</b></h3>
+
+<center>
+	
+<table border="1" cellpadding="2" cellspacing="3" width="377">
+
+		<colgroup><col width="40">
+		<col width="122">
+		<col width="114">
+		<col width="68">
+		</colgroup><tbody>
+    <tr>
+
+			<th colspan="4" width="365">
+				
+      <p>ADJETIVOS</p>
+
+			</th>
+
+		</tr>
+
+		<tr>
+
+			<th width="40">
+				
+      <p>Pos.</p>
+
+			</th>
+
+			<th width="122">
+				
+      <p>Atributo</p>
+
+			</th>
+
+			<th width="114">
+				
+      <p>Valor</p>
+
+			</th>
+
+			<th width="68">
+				
+      <p>Código</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="40">
+				
+      <p align="center">1</p>
+
+			</td>
+
+			<td width="122">
+				
+      <p align="center">Categoría</p>
+
+			</td>
+
+			<td width="114">
+				
+      <p align="center">Adjetivo</p>
+
+			</td>
+
+			<td width="68">
+				
+      <p align="center">A</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="3" width="40">
+				
+      <p align="center">2</p>
+
+			</td>
+
+			<td rowspan="3" width="122">
+				
+      <p align="center">Tipo</p>
+
+			</td>
+
+			<td width="114">
+				
+      <p align="center">Calificativo</p>
+
+			</td>
+
+			<td width="68">
+				
+      <p align="center">Q</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="114">
+				
+      <p align="center">Ordinal</p>
+
+			</td>
+
+			<td width="68">
+				
+      <p align="center">O</p>
+
+			</td>
+
+		</tr>
+
+		<tr>
+
+			<td width="114">
+				
+      <p align="center">-</p>
+
+			</td>
+
+			<td width="68">
+				
+      <p align="center">0</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="4" width="40">
+				
+      <p align="center">3</p>
+
+			</td>
+
+			<td rowspan="4" width="122">
+				
+      <p align="center">Grado</p>
+
+			</td>
+
+			<td width="114">
+				
+      <p align="center">-</p>
+
+			</td>
+
+			<td width="68">
+				
+      <p align="center">0</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="114">
+				
+      <p align="center">Aumentativo</p>
+
+			</td>
+
+			<td width="68">
+				
+      <p align="center">A</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="114">
+				
+      <p align="center">Diminutivo</p>
+
+			</td>
+
+			<td width="68">
+				
+      <p align="center">C</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="114">
+				
+      <p align="center">Superlativo</p>
+
+			</td>
+
+			<td width="68">
+				
+      <p align="center">S</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="3" width="40">
+				
+      
+
+		</tr>
+
+	
+  </tbody>
+</table>
+
+</center>
+
+
+<h3><a name="adverbios"></a><b>2. ADVERBIOS</b></h3>
+
+<center>
+	
+<table border="1" cellpadding="2" cellspacing="2" width="377">
+
+		<tbody>
+    <tr>
+
+			<th colspan="4" bgcolor="#ffffff" valign="top">
+				
+      <p align="center">ADVERBIOS</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<th width="11%">
+				
+      <p align="center">Pos.</p>
+
+			</th>
+
+			<th width="37%">
+				
+      <p align="center">Atributo</p>
+
+			</th>
+
+			<th width="32%">
+				
+      <p align="center">Valor</p>
+
+			</th>
+
+			<th width="19%">
+				
+      <p align="center">Código</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="11%">
+				
+      <p align="center">1</p>
+
+			</td>
+
+			<td width="37%">
+				
+      <p align="center">Categoría</p>
+
+			</td>
+
+			<td width="32%">
+				
+      <p align="center">Adverbio</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">R</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="2" width="11%">
+				
+      <p align="center">2</p>
+
+			</td>
+
+			<td rowspan="2" width="37%">
+				
+      <p align="center">Tipo</p>
+
+			</td>
+
+			<td width="32%">
+				
+      <p align="center">General</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">G</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="32%">
+				
+      <p align="center">Negativo</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">N</p>
+
+			</td>
+
+		</tr>
+
+	
+  </tbody>
+</table>
+
+</center>
+
+
+<h3><a name="determinantes"></a><b>3. DETERMINANTES</b></h3>
+
+<center>
+	
+<table border="1" cellpadding="2" cellspacing="3" width="377">
+
+		<colgroup><col width="40">
+		<col width="123">
+		<col width="117">
+		<col width="64">
+		</colgroup><tbody>
+    <tr>
+
+			<th colspan="4" bgcolor="#ffffff" valign="top" width="365">
+				
+      <p align="center">DETERMINANTES</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<th width="40">
+				
+      <p align="center">Pos.</p>
+
+			</th>
+
+			<th width="123">
+				
+      <p align="center">Atributo</p>
+
+			</th>
+
+			<th width="117">
+				
+      <p align="center">Valor</p>
+
+			</th>
+
+			<th width="64">
+				
+      <p align="center">Código</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="40">
+				
+      <p align="center">1</p>
+
+			</td>
+
+			<td width="123">
+				
+      <p align="center">Categoría</p>
+
+			</td>
+
+			<td width="117">
+				
+      <p align="center">Determinante</p>
+
+			</td>
+
+			<td width="64">
+				
+      <p align="center">D</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="6" width="40">
+				
+      <p align="center">2</p>
+
+			</td>
+
+			<td rowspan="6" width="123">
+				
+      <p align="center">Tipo</p>
+
+			</td>
+
+			<td width="117">
+				
+      <p align="center">Demostrativo</p>
+
+			</td>
+
+			<td width="64">
+				
+      <p align="center">D</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="117">
+				
+      <p align="center">Posesivo</p>
+
+			</td>
+
+			<td width="64">
+				
+      <p align="center">P</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="117">
+				
+      <p align="center">Interrogativo</p>
+
+			</td>
+
+			<td width="64">
+				
+      <p align="center">T</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="117">
+				
+      <p align="center">Exclamativo</p>
+
+			</td>
+
+			<td width="64">
+				
+      <p align="center">E</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="117">
+				
+      <p align="center">Indefinido</p>
+
+			</td>
+
+			<td width="64">
+				
+      <p align="center">I</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="117">
+				
+      <p align="center">Artículo</p>
+
+			</td>
+
+			<td width="64">
+				
+      <p align="center">A</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="3" width="40">
+				
+      <p align="center">3</p>
+
+			</td>
+
+			<td rowspan="3" width="123">
+				
+      <p align="center">Persona</p>
+
+			</td>
+
+			<td width="117">
+				
+      <p align="center">Primera</p>
+
+			</td>
+
+			<td width="64">
+				
+      <p align="center">1</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="117">
+				
+      <p align="center">Segunda</p>
+
+			</td>
+
+			<td width="64">
+				
+      <p align="center">2</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="117">
+				
+      <p align="center">Tercera</p>
+
+			</td>
+
+			<td width="64">
+				
+      <p align="center">3</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="4" width="40">
+				
+     
+		</tr>
+	
+  </tbody>
+</table>
+
+</center>
+
+
+<h3><a name="nombres"></a><b>4. NOMBRES</b></h3>
+
+<center>
+	
+<table border="1" cellpadding="2" cellspacing="3" width="377">
+
+		<colgroup><col width="40">
+		<col width="127">
+		<col width="111">
+		<col width="67">
+		</colgroup><tbody>
+    <tr>
+
+			<th colspan="4" bgcolor="#ffffff" valign="top" width="365">
+				
+      <p align="center">NOMBRES</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<th width="40">
+				
+      <p align="center">Pos.</p>
+
+			</th>
+
+			<th width="127">
+				
+      <p align="center">Atributo</p>
+
+			</th>
+
+			<th width="111">
+				
+      <p align="center">Valor</p>
+
+			</th>
+
+			<th width="67">
+				
+      <p align="center">Código</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="40">
+				
+      <p align="center">1</p>
+
+			</td>
+
+			<td width="127">
+				
+      <p align="center">Categoría</p>
+
+			</td>
+
+			<td width="111">
+				
+      <p align="center">Nombre</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">N</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="2" width="40">
+				
+      <p align="center">2</p>
+
+			</td>
+
+			<td rowspan="2" width="127">
+				
+      <p align="center">Tipo</p>
+
+			</td>
+
+			<td width="111">
+				
+      <p align="center">Común</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">C</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="111">
+				
+      <p align="center">Propio</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">P</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="3" width="40">
+				
+      <p align="center">3</p>
+
+			</td>
+
+			<td rowspan="3" width="127">
+				
+      <p align="center">Género</p>
+
+			</td>
+
+			<td width="111">
+				
+      <p align="center">Masculino</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">M</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="111">
+				
+      <p align="center">Femenino</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">F</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="111">
+				
+      <p align="center">Común</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">C</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="3" width="40">
+				
+      <p align="center">4</p>
+
+			</td>
+
+			<td rowspan="3" width="127">
+				
+      <p align="center">Número</p>
+
+			</td>
+
+			<td width="111">
+				
+      <p align="center">Singular</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">S</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="111">
+				
+      <p align="center">Plural</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">P</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="111">
+				
+      <p align="center">Invariable</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">N</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="4" width="40">
+				
+      <p align="center">5-6</p>
+
+			</td>
+
+			<td rowspan="4" width="127">
+				
+      <p align="center">Clasificación semántica</p>
+
+			</td>
+
+			<td width="111">
+				
+      <p align="center">Persona</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">SP</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="111">
+				
+      <p align="center">Lugar 
+				</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">G0</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="111">
+				
+      <p align="center">Organización</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">O0</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="111">
+				
+      <p align="center">Otros</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">V0</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="2" width="40"				
+
+
+		</tr>
+
+	
+  </tbody>
+</table>
+
+</center>
+
+<ul>
+  <li>
+    <p style="margin-bottom: 0cm;">Los atributos de <i>Clasificación Semántica</i> se especificarán sólo en el caso de que se utilice un clasificador de entidades nombradas (NEC).
+	</p>
+  </li>
+  
+		
+</ul>
+
+<h3><a name="verbos"></a><b>5. VERBOS</b></h3>
+
+<center>
+	
+<table border="1" cellpadding="2" cellspacing="2" width="381">
+
+		<tbody>
+    <tr>
+
+			<th colspan="4" bgcolor="#ffffff" valign="top">
+				
+      <p align="center">VERBOS</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<th width="11%">
+				
+      <p align="center">Pos.</p>
+
+			</th>
+
+			<th width="37%">
+				
+      <p align="center">Atributo</p>
+
+			</th>
+
+			<th width="32%">
+				
+      <p align="center">Valor</p>
+
+			</th>
+
+			<th width="19%">
+				
+      <p align="center">Código</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="11%">
+				
+      <p align="center">1</p>
+
+			</td>
+
+			<td width="37%">
+				
+      <p align="center">Categoría</p>
+
+			</td>
+
+			<td width="32%">
+				
+      <p align="center">Verbo</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">V</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="3" width="11%">
+				
+      <p align="center">2</p>
+
+			</td>
+
+			<td rowspan="3" width="37%">
+				
+      <p align="center">Tipo</p>
+
+			</td>
+
+			<td width="32%">
+				
+      <p align="center">Principal</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">M</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="32%">
+				
+      <p align="center">Auxiliar</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">A</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="32%">
+				
+      <p align="center">Semiauxiliar</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">S</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="6" width="11%">
+				
+      <p align="center">3</p>
+
+			</td>
+
+			<td rowspan="6" width="37%">
+				
+      <p align="center">Modo</p>
+
+			</td>
+
+			<td width="32%">
+				
+      <p align="center">Indicativo</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">I</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="32%">
+				
+      <p align="center">Subjuntivo</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">S</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="32%">
+				
+      <p align="center">Imperativo</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">M</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="32%">
+				
+      <p align="center">Infinitivo</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">N</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="32%">
+				
+      <p align="center">Gerundio</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">G</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="32%">
+				
+      <p align="center">Participio</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">P</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="6" width="11%">
+				
+   </tbody>
+</table>
+
+</center>
+   
+				
+    
+    
+   
+
+<h3><a name="pronombres"></a><b>6. PRONOMBRES</b></h3>
+
+<center>
+	
+<table border="1" cellpadding="2" cellspacing="3" width="377">
+
+		<colgroup><col width="40">
+		<col width="118">
+		<col width="120">
+		<col width="67">
+		</colgroup><tbody>
+    <tr>
+
+			<th colspan="4" bgcolor="#ffffff" valign="top" width="365">
+				
+      <p align="center">PRONOMBRES</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<th width="40">
+				
+      <p align="center">Pos.</p>
+
+			</th>
+
+			<th width="118">
+				
+      <p align="center">Atributo</p>
+
+			</th>
+
+			<th width="120">
+				
+      <p align="center">Valor</p>
+
+			</th>
+
+			<th width="67">
+				
+      <p align="center">Código</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="40">
+				
+      <p align="center">1</p>
+
+			</td>
+
+			<td width="118">
+				
+      <p align="center">Categoría</p>
+
+			</td>
+
+			<td width="120">
+				
+      <p align="center">Pronombre</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">P</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="7" width="40">
+				
+      <p align="center">2</p>
+
+			</td>
+
+			<td rowspan="7" width="118">
+				
+      <p align="center">Tipo</p>
+
+			</td>
+
+			<td width="120">
+				
+      <p align="center">Personal</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">P</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="120">
+				
+      <p align="center">Demostrativo</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">D</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="120">
+				
+      <p align="center">Posesivo</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">X</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="120">
+				
+      <p align="center">Indefinido</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">I</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="120">
+				
+      <p align="center">Interrogativo</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">T</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="120">
+				
+      <p align="center">Relativo</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">R</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="120">
+				
+      <p align="center">Exclamativo</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">E</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="3" width="40">
+				
+      <p align="center">3</p>
+
+			</td>
+
+			<td rowspan="3" width="118">
+				
+      <p align="center">Persona</p>
+
+			</td>
+
+			<td width="120">
+				
+      <p align="center">Primera</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">1</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="120">
+				
+      <p align="center">Segunda</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">2</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="120">
+				
+      <p align="center">Tercera</p>
+
+			</td>
+
+			<td width="67">
+				
+      <p align="center">3</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="4" width="40">
+				
+     
+
+		</tr>
+
+	
+  </tbody>
+</table>
+
+</center>
+
+<ul>
+  <li>
+    <p style="margin-bottom: 0cm;">El atributo <i>Persona</i> se especificará para los
+	pronombres personales y posesivos, para el resto de formas el valor
+	será 0.</p>
+  </li>
+  
+		
+</ul>
+
+	
+     
+<h3><a name="conjunciones"></a><b>7. CONJUNCIONES</b></h3>
+
+<center>
+	
+<table border="1" cellpadding="2" cellspacing="2" width="377">
+
+		<tbody>
+    <tr>
+
+			<th colspan="4" bgcolor="#ffffff" valign="top">
+				
+      <p align="center">CONJUNCIONES</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<th width="12%">
+				
+      <p align="center">Pos.</p>
+
+			</th>
+
+			<th width="37%">
+				
+      <p align="center">Atributo</p>
+
+			</th>
+
+			<th width="32%">
+				
+      <p align="center">Valor</p>
+
+			</th>
+
+			<th width="19%">
+				
+      <p align="center">Código&gt;</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="12%">
+				
+      <p align="center">1</p>
+
+			</td>
+
+			<td width="37%">
+				
+      <p align="center">Categoría</p>
+
+			</td>
+
+			<td width="32%">
+				
+      <p align="center">Conjunción</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">C</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="2" width="12%">
+				
+      <p align="center">2</p>
+
+			</td>
+
+			<td rowspan="2" width="37%">
+				
+      <p align="center">Tipo</p>
+
+			</td>
+
+			<td width="32%">
+				
+      <p align="center">Coordinada</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">C</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="32%">
+				
+      <p align="center">Subordinada</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">S</p>
+
+			</td>
+
+		</tr>
+
+	
+  </tbody>
+</table>
+
+</center>
+
+
+
+<h3><a name="interjecciones"></a><b>8. INTERJECCIONES</b></h3>
+
+<center>
+	
+<table border="1" cellpadding="2" cellspacing="2" width="377">
+
+		<tbody>
+    <tr>
+
+			<th colspan="4" bgcolor="#ffffff" valign="top">
+				
+      <p align="center">INTERJECCIONES</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<th width="12%">
+				
+      <p align="center">Pos.</p>
+
+			</th>
+
+			<th width="37%">
+				
+      <p align="center">Atributo</p>
+
+			</th>
+
+			<th width="32%">
+				
+      <p align="center">Valor</p>
+
+			</th>
+
+			<th width="19%">
+				
+      <p align="center">Código</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="12%">
+				
+      <p align="center">1</p>
+
+			</td>
+
+			<td width="37%">
+				
+      <p align="center">Categoría</p>
+
+			</td>
+
+			<td width="32%">
+				
+      <p align="center">Interjección</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">I</p>
+
+			</td>
+
+		</tr>
+
+	
+  </tbody>
+</table>
+
+</center>
+
+<h3><a name="preposiciones"></a><b>9. PREPOSICIONES</b></h3>
+
+<center>
+	
+<table border="1" cellpadding="2" cellspacing="2" width="377">
+
+		<tbody>
+    <tr>
+
+			<th colspan="4" bgcolor="#ffffff" valign="top">
+				
+      <p align="center">PREPOSICIONES</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<th width="12%">
+				
+      <p align="center">Pos.</p>
+
+			</th>
+
+			<th width="37%">
+				
+      <p align="center">Atributo</p>
+
+			</th>
+
+			<th width="32%">
+				
+      <p align="center">Valor</p>
+
+			</th>
+
+			<th width="19%">
+				
+      <p align="center">Código</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="12%">
+				
+      <p align="center">1</p>
+
+			</td>
+
+			<td width="37%">
+				
+      <p align="center">Categoría</p>
+
+			</td>
+
+			<td width="32%">
+				
+      <p align="center">Adposición</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">S</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="12%">
+				
+      <p align="center">2</p>
+
+			</td>
+
+			<td width="37%">
+				
+      <p align="center">Tipo</p>
+
+			</td>
+
+			<td width="32%">
+				
+      <p align="center">Preposición</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">P</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="2" width="12%">
+				
+      <p align="center">3</p>
+
+			</td>
+
+			<td rowspan="2" width="37%">
+				
+      <p align="center">Forma</p>
+
+			</td>
+
+			<td width="32%">
+				
+      <p align="center">Simple</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">S</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="32%">
+				
+      <p align="center">Contraída</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">C</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="12%">
+				
+     
+
+		</tr>
+
+	
+  </tbody>
+</table>
+
+</center>
+
+
+<h3><a name="signos"></a><b>10. SIGNOS DE PUNTUACIÓN</b></h3>
+
+<center>
+	
+<table border="1" cellpadding="2" cellspacing="2" width="377">
+
+		<tbody>
+    <tr>
+
+			<th colspan="4" bgcolor="#ffffff" valign="top">
+				
+      <p align="center">SIGNOS DE PUNTUACIÓN</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<th width="12%">
+				
+      <p align="center">Pos.</p>
+
+			</th>
+
+			<th width="37%">
+				
+      <p align="center">Atributo</p>
+
+			</th>
+
+			<th width="32%">
+				
+      <p align="center">Valor</p>
+
+			</th>
+
+			<th width="19%">
+				
+      <p align="center">Código</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="12%">
+				
+      <p align="center">1</p>
+
+			</td>
+
+			<td width="37%">
+				
+      <p align="center">Categoría</p>
+
+			</td>
+
+			<td width="32%">
+				
+      <p align="center">Puntuación</p>
+
+			</td>
+
+			<td width="19%">
+				
+      <p align="center">F</p>
+
+			</td>
+
+		</tr>
+
+	
+  </tbody>
+</table>
+
+</center>
+
+<blockquote><a name="signos1"></a>Ejemplos:</blockquote>
+
+<center>
+	
+<table cellpadding="2" cellspacing="2" width="375">
+
+		<tbody>
+    <tr valign="top">
+
+			<td bgcolor="#000066" width="34%">
+				
+      <p align="center"><font color="#ffffff"><b>Forma</b></font></p>
+
+			</td>
+
+			<td bgcolor="#000066" width="34%">
+				
+      <p align="center"><font color="#ffffff"><b>Lema</b></font></p>
+
+			</td>
+
+			<td bgcolor="#000066" width="31%">
+				
+      <p align="center"><font color="#ffffff"><b>Etiqueta</b></font></p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">¡</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">¡</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Faa</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">!</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">!</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fat</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">,</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">,</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fc</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">[</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">[</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fca</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">]</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">]</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fct</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">:</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">:</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fd</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">"</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">"</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fe</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">-</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">-</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fg</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">/</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">/</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fh</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">¿</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">¿</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fia</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">?</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">?</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fit</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">{</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">{</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fla</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">}</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">}</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Flt</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">.</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">.</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fp</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">(</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">(</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fpa</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">)</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">)</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fpt</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">«</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">«</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fra</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">»</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">»</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Frc</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">...</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">...</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fs</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">%</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">%</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Ft</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">;</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">;</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fx</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">_</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">_</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fz</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">+</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">+</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fz</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="34%">
+				
+      <p align="center">=</p>
+
+			</td>
+
+			<td width="34%">
+				
+      <p align="center">=</p>
+
+			</td>
+
+			<td width="31%">
+				
+      <p align="center">Fz</p>
+
+			</td>
+
+		</tr>
+
+	
+  </tbody>
+</table>
+
+</center>
+
+
+<h3><a name="cifras"></a><b>11. CIFRAS Y NUMERALES</b></h3>
+
+<center>
+	
+<table border="1" cellpadding="2" cellspacing="3" width="377">
+
+		<colgroup><col width="40">
+		<col width="129">
+		<col width="111">
+		<col width="64">
+		</colgroup><tbody>
+    <tr>
+
+			<th colspan="4" bgcolor="#ffffff" valign="top" width="365">
+				
+      <p align="center">CIFRAS</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<th width="40">
+				
+      <p align="center">Pos.</p>
+
+			</th>
+
+			<th width="129">
+				
+      <p align="center">Atributo</p>
+
+			</th>
+
+			<th width="111">
+				
+      <p align="center">Valor</p>
+
+			</th>
+
+			<th width="64">
+				
+      <p align="center">Código</p>
+
+			</th>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td width="40">
+				
+      <p align="center">1</p>
+
+			</td>
+
+			<td width="129">
+				
+      <p align="center">Categoría</p>
+
+			</td>
+
+			<td width="111">
+				
+      <p align="center">Cifra</p>
+
+			</td>
+
+			<td width="64">
+				
+      <p align="center">Z</p>
+
+			</td>
+
+		</tr>
+
+		<tr valign="top">
+
+			<td rowspan="4" width="40">
+				
+     
+
+	
+  </tbody>
+</table>
+
+</center>
+
+
+
+</body></html>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<plistEmpty>resources/qa/clm/plists/EmptyNPCEditor.plist</plistEmpty>
+	<npcEditorPath>resources/qa/clm/clmRun.lnk</npcEditorPath>
+	<historyFilePath>resources/qa/clm/history.txt</historyFilePath>
+	<pingTime>8</pingTime>
+	<alwaysAnswers>true</alwaysAnswers>
+</config>

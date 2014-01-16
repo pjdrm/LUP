@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!-- Feature combinations used in the classifier (jotfidf, jaccardOverlap, jaccard, dice, overlap)  -->
+	<DistanceAlgorithm>jaccardOverlap</DistanceAlgorithm>
+	<features>-u-</features>
+	<JaccardOverlapWeight>0.8</JaccardOverlapWeight>
+	<FixedThreshold>0.4,0.5,0.6,0.7</FixedThreshold>
+</config>

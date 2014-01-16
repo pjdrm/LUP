@@ -1,0 +1,77 @@
+<project name="LUP" default="create-jar" basedir=".">
+  <description>QA module with SVM classification</description>
+  
+  <property name="src.dir" location="src"/>
+  <property name="build.dir" location="build"/>
+  <property name="lib.dir" location="lib" />
+  <property name="dm.dir" location="../DialogueManager/lib" />
+  <property name="cluster.dir" location="../Clusters/lib" />
+  <property name="config.dir" location="resources\qa\config" />	
+  <property name="archive.filename" value="LUP" />
+  <property name="jar.filename" value="${archive.filename}.jar" />
+  <property name="log4j.filename" value="log4j.properties" />
+  
+  <path id="project.classpath">
+    <fileset dir="${lib.dir}">
+      <include name="**/*.jar" />
+    </fileset>
+  	<fileset dir="${config.dir}">
+  	      <include name="*.properties" />
+  	</fileset>
+  </path>
+
+  <manifestclasspath property="lib.list" jarfile="${archive.filename}.jar">
+	   <classpath refid="project.classpath" />
+  </manifestclasspath>
+	
+  <manifestclasspath property="properties.list" jarfile="${log4j.filename}">
+	   <classpath refid="project.classpath" />
+  </manifestclasspath>
+  
+  <target name="prepare" description="Creates necessary directories for the building process">
+	<mkdir dir="${build.dir}"/>
+  </target>
+  
+  <target name="clean" description="Removes any generated files">
+	<delete dir="${build.dir}"/>
+	<delete file="${jar.filename}"/>
+  </target>
+  
+  <target name="compile" depends="prepare" description="Compiles the source code" >
+	<javac srcdir="${src.dir}" destdir="${build.dir}" classpathref="project.classpath"
+	       target="1.6" debug="on" includeantruntime="false"/>
+  </target>
+	
+  <target name="create-jar" depends="clean,compile" description="Generates the jar with the project classes">
+	<jar destfile="${jar.filename}" basedir="${build.dir}">
+		<!--fileset dir="." includes="resources/** results/** config/** lib/*"/-->
+		<manifest>
+			<attribute name="Main-Class" value="l2f.ClassifierApp"/>
+			<attribute name="Class-Path" value=". ${lib.list} ${properties.list}"/>
+		</manifest>
+  	</jar>
+  	<copy toDir="${dm.dir}">
+  	  <fileset file="${jar.filename}"/>
+  	</copy>
+  	<copy toDir="${cluster.dir}">
+  	  	  <fileset file="${jar.filename}"/>
+  	</copy>
+  </target>
+  
+  <!--    <property name="run.args" value="package.and.class.name arg1 arg2 arg3"/> -->
+  <!--    <property name="target.classpath" value="target.jar"/> -->
+	
+  <target name="run" depends="create-jar" description="Runs the target program with Traits" >
+	<!-- fail unless="run.args" message="arguments must be passed using ant option -Drun.args="/> -->
+	<!-- fail unless="target.classpath" message="classpath for target program must be passed using ant option -Dtarget.classpath="/> -->
+	<java classname="l2f.QuestionClassifierEvaluator" fork="true">
+	  <classpath>
+		<path refid="project.classpath"/>
+		<pathelement location="${jar.filename}"/>
+	  	<pathelement location="${config.dir}"/>
+		<pathelement path="${target.classpath}"/>
+	  </classpath>		
+	  <!-- arg line="${run.args}" /> -->
+	</java>
+  </target>
+</project>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!-- Do not change the above flags -->
+	<allSenses>false</allSenses>
+	<fine>true</fine>
+	
+	<!-- Feature combinations used in the classifier -b-,-bb-,-bu-,-iwle-bu-,-iwlp-bu-,-iwlp-u-,-t-,-u- -->
+	<features>-u-</features>
+</config>

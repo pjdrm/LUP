@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<posTagger>TreeTagger</posTagger>
+	<treeTaggerConfigPath>resources/qa/config/config_tree_tagger.xml</treeTaggerConfigPath>
+
+	<posProcessorRules>
+		<lemmaRules>VMI, VMS, VMM, VMN, VMG, VMP, VAI, VAS, VAM, VAN, VAG, VAP, VSI, VSS, VSM, VSN, VSG, VSP</lemmaRules>
+		<!-- lemmaRules>AllTags</lemmaRules -->
+	</posProcessorRules>
+</config>

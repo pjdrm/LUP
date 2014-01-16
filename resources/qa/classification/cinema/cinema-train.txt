@@ -1,0 +1,204 @@
+﻿QT_WHO_DIRECTED  Quem realizou o filme MOVIE?
+QT_WHO_DIRECTED  Quem é o realizador do filme MOVIE?
+QT_WHO_IS  Quando nasceu o ACTOR?
+QT_BORN_WHERE  ACTOR, Onde é que nasceu?
+QT_WHO_ACT  Qual o nome do actor que entrou em MOVIE?
+QT_WHO_DIRECTED  Quem é que foi o realizador de MOVIE?
+QT_WHO_DIRECTED  Que realizador fez o filme MOVIE?
+QT_WHICH_FILMS_DIRECTED  Que filmes realizou ACTOR?
+QT_WHO_ACT  Qual foi o elenco de MOVIE?
+QT_WHICH_FILMS  Em que filmes entra ACTOR?
+QT_BORN_WHERE  ACTOR é natural de Onde?
+QT_WHO_MAIN_ACT  Quem é a pessoa que é protagonista de MOVIE?
+QT_BORN_WHEN  Que idade é que tem o ACTOR?
+QT_WHO_NOMINATED  Quais os nomeados para o óscar de melhor actriz em DATA?
+QT_WHO_WON  Quem foi o vencedor do óscar  de melhor actor secundário em DATA?
+QT_WHO_ACT  Quais os actores de MOVIE?
+QT_WHO_PRODUCED  Quem produziu MOVIE?
+QT_WHO_ACTS_WITH_IN  Que actriz contracena com ACTOR no filme MOVIE?
+QT_WHICH_FILMS  em que filmes participou a actriz ACTOR?
+QT_WHO_WROTE  Quem escreveu MOVIE?
+QT_WHICH_YEAR_FILM  em que ano foi realizado o filme MOVIE ?
+QT_WHO_DIRECTED  Como é que se chama o realizador do filme MOVIE?
+QT_WHICH_YEAR_FILM  em que ano foi rodado MOVIE?
+QT_WHICH_YEAR_FILM  em que ano foi realizado o filme de Almodovar MOVIE ?
+QT_WHO_DIRECTED  o filme MOVIE foi realizado por que pessoa?
+QT_WHO_DIRECTED  Quem é a pessoa que realizou o filme MOVIE?
+QT_DIED_WHERE  Onde é que morreu ACTOR?
+QT_WHO_NOMINATED  Quem foram os nomeados para o óscar de melhor actor secundário em DATA?
+QT_WHO_MAIN_ACT  Qual é o protagonista do filme MOVIE?
+QT_WHO_ACTS_IN_TWO  Como se chama o protagonista do filme MOVIE?
+QT_WHO_DIRECTED  MOVIE foi realizado por quem?
+QT_WHO_WON  Qual o nome do vencedor para o óscar de melhor actriz em DATA?
+QT_HOW_MANY_OSCARS  Quantos óscares ganhou o actor ACTOR?
+QT_WHO_ACTS_WITH_IN  Com quem representou ACTOR em MOVIE?
+QT_WHO_DIRECTED  Como se chama o realizador do filme MOVIE?
+QT_WHO_ACT  Mencione um actor do MOVIE.
+QT_WHO_DIRECTED  Quem realizou o filme  MOVIE ?
+QT_DIED_WHERE  ACTOR faleceu em que local?
+QT_WHO_MAIN_ACT  Qual é o actor que protagonizou o filme MOVIE?
+QT_WHICH_FILMS  em que filmes participou o ACTOR?
+QT_WHO_ACTS_WITH_IN  no MOVIE, ACTOR contracenou com quem?
+QT_WHO_MAIN_ACT  Quem foi o actor principal de MOVIE ?
+QT_LAST_FILM  Qual foi o último filme em que participou ACTOR?
+QT_DIED_WHERE  Onde morreu o ACTOR?
+QT_BORN_WHEN  Quando nasceu o ACTOR?
+QT_WHO_IS  o ACTOR é quem?
+QT_DIED_WHERE  em que sítio faleceu ACTOR?
+QT_WHO_DIRECTED  Quem é o realizador do MOVIE II?
+QT_WHICH_FILMS  em que filme se estreou no cinema a actriz ACTOR?
+QT_DIED_WHEN  Quando morreu ACTOR?
+QT_WHO_ACT  Qual o elenco de actores em MOVIE?
+QT_WHO_MAIN_ACT  Que actor protagonizou o MOVIE?
+QT_WHICH_FILMS_MAIN_ACT_TWO  Há algum filme em que ACTOR?
+QT_WHO_ACT  o elenco de actores de MOVIE é qual?
+QT_BORN_WHERE  Onde nasceu o ACTOR?
+QT_WHO_ACTS_WITH_IN  Quem representou com ACTOR no filme MOVIE?
+QT_BORN_WHERE  Onde nasceu ACTOR?
+QT_WHO_DIRECTED  Quem foi o realizador do MOVIE?
+QT_LAST_FILM  Qual foi o último filme que teve a participação do ACTOR?
+QT_HOW_MANY_OSCARS  Quantos óscares recebeu o ACTOR?
+QT_WHICH_FILMS  em que filme francês aparece a ACTOR?
+QT_WHO_ACT  MOVIE actor
+QT_WHO_MAIN_ACT  Que actor protagonizou o filme MOVIE?
+QT_BORN_WHEN  Qual a data de nascimento do ACTOR?
+QT_BORN_WHEN  Quando é que nasceu ACTOR?
+QT_WHO_DIRECTED  Quem realizou o filme  MOVIE ?
+QT_HOW_MANY_OSCARS_FILM  MOVIE ganhou quantos prémios?
+QT_WHO_WON  Quem foi o vencedor do óscar de melhor actor secundário em DATA?
+QT_WHO_IS  Quem é que é o ACTOR?
+QT_WHO_DIRECTED  Quem é que realiza MOVIE?
+QT_LAST_FILM  Qual foi o ultimo filme da actriz ACTOR?
+QT_WHO_ACTS_LIKE_IN  em MOVIE quem é o CHARACTER?
+QT_WHO_ACT  Nomeie os actores do MOVIE.
+QT_WHO_DIRECTED  MOVIE é realizado por quem?
+QT_WHO_WON  Como se chama o vencedor para o óscar de melhor actriz em DATA?
+QT_BORN_WHEN  Que idade tem o ACTOR?
+QT_WHO_ACT  Qual o nome do actor de MOVIE?
+QT_WHO_MAIN_ACT  De quem foi o papel principal no filme MOVIE?
+QT_WHO_ACTS_IN_TWO  Qual foi o actor que protagonizou MOVIE?
+QT_WHO_MAIN_ACT  Qual é que foi o protagonista do filme MOVIE?
+QT_WHO_MAIN_ACT  Como se chama a pessoa que participou como actriz no filme MOVIE?
+QT_WHICH_FILMS_MAIN_ACT  Em que filmes ACTOR é protagonista?
+QT_WHO_ACTS_IN_TWO  Qual o actor que participou tanto no MOVIE?
+QT_WHO_DIRECTED  Quem é que é a pessoa que realizou o filme MOVIE?
+QT_BORN_WHEN  Quando é que o ACTOR nasceu?
+QT_WHO_NOMINATED  em DATA quais foram os nomeados para o óscar de melhor actriz?
+QT_BORN_WHERE  Qual a nacionalidade do ACTOR?
+QT_HOW_MANY_OSCARS_FILM  Quantos óscares ganhou o MOVIE ?
+QT_WHO_NOMINATED  Qual o nome dos nomeados para o óscar de melhor actriz em DATA?
+QT_WHO_ACTS_LIKE_IN  no filme MOVIE por quem é interpretado o CHARACTER?
+QT_WHO_DIRECTED  Quem realizou o MOVIE?
+QT_BORN_WHERE  Onde nasceu ACTOR?
+QT_WHO_ACTS_WITH_IN  Com quem é que contracena ACTOR no filme MOVIE?
+QT_BORN_WHERE  De que nacionalidade é o ACTOR?
+QT_WHO_WON  Quem ganhou o Óscar de melhor actor em DATA?
+QT_HOW_MANY_OSCARS  o ACTOR ganhou algum óscar?
+QT_WHICH_CHARACTER  que personagem interpreta ACTOR no filme MOVIE?
+QT_BORN_WHEN  Qual é que é a idade do ACTOR?
+QT_HOW_MANY_OSCARS_FILM  o filme MOVIE já ganhou quantos óscares?
+QT_WHO_ACTS_LIKE_IN  Quem interpreta CHARACTER no filme MOVIE?
+QT_WHO_ACTS_WITH_IN  Qual é que foi o actor que contracenou com ACTOR no filme MOVIE?
+QT_WHO_ACTS_WITH_IN  em MOVIE com quem contracenou ACTOR?
+QT_WHO_ACTS_IN_TWO  Quem entra no MOVIE?
+QT_HOW_MANY_NOMINATIONS  ACTOR já foi nomeado quantas vezes?
+QT_WHO_MAIN_ACT  Qual é que foi o protagonista no MOVIE?
+QT_WHO_ACTS_LIKE_IN  Quem interpreta o CHARACTER no filme MOVIE?
+QT_BORN_WHEN  Qual a idade de ACTOR?
+QT_WHO_NOMINATED  Como se chamam os nomeados para o óscar de melhor actriz em DATA?
+QT_WHO_ACTS_LIKE_IN  no filme MOVIE o CHARACTER é interpretado por quem?
+QT_WHO_ACTS_WITH_IN  Com quem contracenou ACTOR em MOVIE ?
+QT_BORN_WHEN  Que idade é que o ACTOR tem?
+QT_DIED_WHERE  Onde morreu ACTOR?
+QT_WHO_MAIN_ACT  Protagonista do MOVIE?
+QT_WHO_MAIN_ACT  Quem protagonizou o filme MOVIE ?
+QT_WHO_MAIN_ACT  Quem protagoniza no MOVIE?
+QT_WHICH_FILMS_MAIN_ACT  Quais os filmes protagonizados por ACTOR?
+QT_WHO_ACT  Quem foram as pessoas que entraram no MOVIE?
+QT_WHO_MAIN_ACT  Como se chama a pessoa que é protagonista de MOVIE?
+QT_WHICH_WON  Que filme ganhou um urso de prata no Festival Internacional de Berlim em DATA?
+QT_WHO_ACTS_IN_TWO  Qual foi o actor que protagonizou os filmes MOVIE?
+QT_BORN_WHERE  Onde é que nasceu o ACTOR?
+QT_WHO_DIRECTED  Quem realiza MOVIE?
+QT_HOW_MANY_NOMINATIONS_FILM  Quantos nomeações recebeu o MOVIE?
+QT_WHO_DIRECTED  Como se chama a pessoa que realizou MOVIE?
+QT_WHO_ACTS_WITH_IN  Com quem contracenava ACTOR no filme MOVIE?
+QT_WHO_DIRECTED  De quem é o filme MOVIE?
+QT_WHICH_WON  Que filme ganhou o óscar de melhor filme em DATA?
+QT_BORN_WHERE  Onde é que nasceu ACTOR?
+QT_WHO_DIRECTED  Quem realizou o MOVIE?
+QT_WHO_MAIN_ACT  Protagonista do MOVIE?
+QT_WHO_IS  Quem é o ACTOR?
+QT_WHO_DIRECTED  Qual é que foi o realizador de MOVIE?
+QT_HOW_MANY_NOMINATIONS_FILM  Quantos nomeações recebeu o MOVIE?
+QT_WHO_DIRECTED  Quem é que realizou o filme MOVIE?
+QT_WHO_ACTS_LIKE_IN  De quem é a voz do CHARACTER no MOVIE ?
+QT_WHO_ACTS_WITH_IN  Quem contracena com ACTOR em  MOVIE  ?
+QT_WHO_DIRECTED  Que realizador fez o MOVIE?
+QT_WHO_WON  Quem ganhou em DATA o óscar de melhor actriz?
+QT_WHO_MAIN_ACT  Qual é que é o actor que protagonizou o filme MOVIE?
+QT_BORN_WHERE  Nasceu Onde o ACTOR?
+QT_WHO_ACT  Que actores entram no MOVIE?
+QT_WHO_ACTS_LIKE_IN  Quem interpreta CHARACTER em MOVIE?
+QT_WHO_WROTE  Quem é o argumentista do filme  MOVIE ?
+QT_DIED_WHEN  Quando morreu o ACTOR?
+QT_WHO_MAIN_ACT  Qual a actriz principal do filme de terror  MOVIE ?
+QT_WHICH_FILMS_MAIN_ACT_TWO  em que filmes contracenam ACTOR?
+QT_WHO_MAIN_ACT  Quais as actrizes principais da colecção MOVIE ?
+QT_WHO_WON  o óscar de melhor actriz em DATA foi entregue a que actriz?
+QT_WHO_IS  ACTOR, quem é?
+QT_WHO_MAIN_ACT  Quem protagoniza em MOVIE?
+QT_WHO_WON  Quem ganhou o óscar de melhor realizador em DATA?
+QT_WHO_ACTS_WITH_IN  Como se chama a actriz que contracena com o ACTOR nos MOVIE?
+QT_WHO_ACTS_IN_TWO  Quem entra no MOVIE?
+QT_WHICH_FILMS_MAIN_ACT  Em que filme se estreou ACTOR como actor principal?
+QT_WHO_ACTS_IN_TWO  Qual foi o actor que protagonizou o filme MOVIE?
+QT_WHO_ACT  Quem é que foi o actor em MOVIE?
+QT_WHO_MAIN_ACT  Quem foi o actor principal em MOVIE?
+QT_BORN_WHEN  Que idade é que tem ACTOR?
+QT_WHO_DIRECTED  Qual foi a pessoa que realizou MOVIE?
+QT_WHO_ACTS_WITH_IN  Com quem contracenou ACTOR na MOVIE?
+QT_BORN_WHERE  De Onde é que é natural ACTOR?
+QT_WHO_DIRECTED  Indique o realizador de MOVIE.
+QT_BORN_WHEN  Quantos anos tem ACTOR?
+QT_MAIN_CHARACTER  Quem é a personagem principal de MOVIE?
+QT_BORN_WHEN  Quantos anos tem o ACTOR?
+QT_WHO_NOMINATED  Quem foram os nomeados para o óscar de melhor actor em DATA?
+QT_WHO_ACTS_LIKE_IN  Quem fez de CHARACTER em  MOVIE ?
+QT_WHO_IS  o ACTOR quem é?
+QT_DIED_WHERE  Onde é que morreu o ACTOR?
+QT_WHO_ACTS_LIKE_IN  Quem faz de CHARACTER em MOVIE?
+QT_WHO_ACTS_LIKE_IN  Quem faz de CHARACTER em  MOVIE ?
+QT_WHO_WON  Quem é a pessoa que em DATA venceu o óscar de melhor actor secundário?
+QT_WHO_DIRECTED  Quem dirigiu MOVIE?
+QT_WHO_MAIN_ACT  Quem foi o actor que protagonizou o filme MOVIE?
+QT_WHO_ACT  no MOVIE, qual é o elenco de actores?
+QT_HOW_MANY_NOMINATIONS  o ACTOR foi nomeado para algum óscar?
+QT_WHO_ACT  Quem foi a actriz de MOVIE?
+QT_WHO_ACT  Quem foi o actor de MOVIE?
+QT_WHO_WON  em DATA quem foi o vencedor do óscar de melhor actriz?
+QT_WHO_MAIN_ACT  Como se chama o actor que protagonizou MOVIE?
+QT_WHO_DIRECTED  Quem é que realizou o MOVIE?
+QT_WHO_ACT  MOVIE tem que elenco de actores?
+QT_DIED_WHEN  Quando é que morreu o ACTOR?
+QT_WHO_ACTS_LIKE_IN  Quem é CHARACTER em MOVIE?
+QT_WHO_WON  no ano de DATA o óscar de melhor actriz foi entregue a que actor?
+QT_WHO_DIRECTED  Qual o realizador de MOVIE?
+QT_WHO_ACTS_LIKE_IN  Quem faz de CHARACTER no filme MOVIE?
+QT_WHO_MAIN_ACT  Qual a actriz principal do filme  MOVIE?
+QT_WHO_ACTS_IN_TWO  Quem participou nos filmes MOVIE?
+QT_WHO_MAIN_ACT  Qual o nome do actor principal no filme  MOVIE ?
+QT_DIED_WHEN  Quando é que morreu ACTOR?
+QT_WHO_MAIN_ACT  Qual o actor principal que participou no filme MOVIE?
+QT_BORN_WHERE  Qual a naturalidade de ACTOR?
+QT_WHO_ACT  Quem são os actores do filme MOVIE?
+QT_WHO_DIRECTED  Quem realizou MOVIE?
+QT_WHO_WROTE  Quem foi o argumentista de  MOVIE ?
+QT_WHO_MAIN_ACT  Qual foi o protagonista de MOVIE?
+QT_WHO_MAIN_ACT  no MOVIE qual foi o actor?
+QT_HOW_MANY_NOMINATIONS  Quantas nomeações já teve ACTOR?
+QT_WHICH_YEAR_FILM  Quando estreia o filme  MOVIE ?
+QT_WHICH_FILMS_DIRECTED  De que filmes é realizador o ACTOR?
+QT_WHO_DIRECTED  Quem é o realizador de  MOVIE ?
+QT_WHO_WON  o óscar de melhor actriz em DATA foi ganho por quem?
+QT_WHO_ACT  actor MOVIE

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="corpus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="qa"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="qa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="questions"/>
+        <xs:element ref="answers"/>
+      </xs:sequence>
+	  <xs:attribute name="id" use="optional" type="xs:string"/>
+	  <xs:attribute name="category" use="optional" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="questions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="q"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="q" type="xs:string"/>
+  <xs:element name="answers">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="a"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="a">
+    <xs:complexType mixed="true">
+      <xs:attribute name="emotion" type="xs:string"/>
+	  <xs:attribute name="id" type="xs:string"/>
+      <xs:attribute name="intensity" type="xs:integer"/>
+      <xs:attribute name="slope" type="xs:integer"/>
+	  <xs:attribute name="repeat" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!-- Feature combinations used in the classifier -->
+	<features>-u-</features>
+	<JaccardOverlapWeight>0.8</JaccardOverlapWeight>
+	<k-neighbours>1</k-neighbours>
+	<!-- regular, MinHash HashFunction NumberOfFunctions -->
+	<!-- Possible HashFunctions: POLYNOMIAL, MURMUR3, MURMUR, LINEAR-->
+	<SetIntersection>MinHash LINEAR 3</SetIntersection>
+</config>
