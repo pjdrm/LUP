@@ -33,7 +33,7 @@ public class MinHashSetIntersection implements SetIntersection{
 			minHashCache.put(wordSetB.toString(), minHashWordSetB);
 		}
 
-		//muito restrito, tem de ser o mesmo hash na mesma posição. Experimentar uma versão com contains e remove
+		//muito restrito, tem de ser o mesmo hash na mesma posicao. Experimentar uma versao com contains e remove
 		double numberOfEqualHashes = 0.0;
 		for(int i = 0; i < minHashWordSetA.length; i++){
 			if(minHashWordSetA[i].equals(minHashWordSetB[i])){

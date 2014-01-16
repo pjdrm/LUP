@@ -4,9 +4,7 @@
   <property name="src.dir" location="src"/>
   <property name="build.dir" location="build"/>
   <property name="lib.dir" location="lib" />
-  <property name="dm.dir" location="../DialogueManager/lib" />
-  <property name="cluster.dir" location="../Clusters/lib" />
-  <property name="config.dir" location="resources\qa\config" />	
+   <property name="config.dir" location="resources\qa\config" />	
   <property name="archive.filename" value="LUP" />
   <property name="jar.filename" value="${archive.filename}.jar" />
   <property name="log4j.filename" value="log4j.properties" />
@@ -50,12 +48,6 @@
 			<attribute name="Class-Path" value=". ${lib.list} ${properties.list}"/>
 		</manifest>
   	</jar>
-  	<copy toDir="${dm.dir}">
-  	  <fileset file="${jar.filename}"/>
-  	</copy>
-  	<copy toDir="${cluster.dir}">
-  	  	  <fileset file="${jar.filename}"/>
-  	</copy>
   </target>
   
   <!--    <property name="run.args" value="package.and.class.name arg1 arg2 arg3"/> -->
