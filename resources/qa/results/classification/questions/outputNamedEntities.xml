@@ -1,0 +1,13 @@
+<test>
+	<questions>
+		<question category = "QT_WHICH_YEAR_FILM">
+			<text>quando forrest gump foi realizado o forrest gump</text>
+		</question>
+		<question category = "QT_WHICH_YEAR_FILM">
+			<text>quando forrest gump foi realizado o forrest gump</text>
+		</question>
+	</questions>
+	<results>
+		<accuracy>1.0</accuracy>
+	</results>
+</test>

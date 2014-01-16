@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<FramesDefinition>
+	<frame id="controla_dispositivo">
+		<attribute name="accao">
+			<value>liga,ligar,acende,acender</value>
+			<value>desliga,desligar,apaga,apagar</value>
+		</attribute>
+		<attribute name="dispositivo">
+			<value>televisão</value>
+			<value>arcondicionado</value>
+			<value>aquecedor</value>
+			<value>aparelhagem</value>
+			<value>rádio</value>
+			<value>luz,luzes</value>
+		</attribute>
+		<attribute name="local">
+			<value>sala</value>
+			<value>quarto</value>
+			<value>cozinha</value>
+			<value>escritório</value>
+			<value>casadebanho</value>
+		</attribute>
+		<questions>
+		<q>Liga a televisão da cozinha.</q>
+		<q>Podias ligar a televisão da cozinha.</q>
+		<q>Por favor, apaga a televisão do escritório.</q>
+		<q>Está a dar o benfica, liga a televisão da sala.</q>
+		<q>Quero ver notícias, acende a televisão do quarto.</q>
+		<q>Tenho frio, desliga o arcondicionado do quarto, por favor.</q>
+		<q>Está frio, liga o arcondicionado da sala.</q>
+		<q>Aqui está muito calor, desliga o aquecedor do escritório.</q>
+		<q>Desliga o aquecedor da sala.</q>
+		<q>Podias ligar o arcondicionado do quarto.</q>
+		<q>Hoje está muito frio, liga o aquecedor da sala.</q>
+		<q>Liga o aquecedor da sala.</q>
+		<q>Desliga o aquecedor da sala.</q>
+		<q>A temperatura da sala já está boa, desliga o arcondicionado.</q>
+		<q>Podes ligar o aquecedor do escritório.</q>
+		<q>Liga o aquecedor para o quarto ficar quente.</q>
+		<q>Liga a aparelhagem da sala.</q>
+		<q>Preciso de relaxar, liga a aparelhagem do escritório.</q>
+		<q>Apetece-me ouvir música, liga a aparelhagem do quarto.</q>
+		<q>Estou a precisar de ouvir música, liga a aparelhagem da sala.</q>
+		<q>Não gosto desta música, desliga a aparelhagem do escritório.</q>
+		<q>Já podes desligar a aparelhagem da sala.</q>
+		<q>Liga o rádio do quarto.</q>
+		<q>Podes ligar o rádio quarto.</q>
+		<q>Quero ouvir uma musiquinha, liga o rádio do quarto, se faz favor.</q>
+		<q>Ouve-se muito mal a rádio da sala, podes desligar.</q>
+		<q>Acende a luz do escritório.</q>
+		<q>Vou dormir, apaga a luz do quarto.</q>
+		<q>Bom-dia, quero acender as luzes do quarto.</q>
+		<q>Liga as luzes da sala.</q>
+		<q>Acende as luzes da cozinha.</q>
+		<q>Apaga as luzes da sala.</q>
+		<q>Desliga as luzes da sala.</q>
+		<q>Faz-me o favor de desligar as luzes da sala.</q>
+		<q>Apetece-me ouvir música, liga o rádio do quarto.</q>
+		<q>Depressa, liga a luz da casadebanho.</q>
+		<q>Quero ouvir música, liga a aparelhagem do escritório.</q>
+		<q>A sala está muito fria, liga o arcondicionado.</q>
+		<q>O quarto já aqueceu, podes desligar o aquecedor.</q>
+		<q>Podes ligar o rádio do quarto, se faz favor.</q>
+		<q>Quero que a sala esteja quente quando voltar, liga o aquecedor.</q>
+		<q>Liga a rádio do quarto para ela ficar a bombar.</q>
+		<q>Acende as luzes da sala.</q>
+		</questions>
+	</frame>
+	
+	<frame id="regula_temperatura">
+		<attribute name="accao">
+			<value>aumenta,aumentar,sobe,subir</value>
+			<value>baixa,baixar</value>
+		</attribute>
+		<attribute name="dispositivo">
+			<value>arcondicionado</value>
+			<value>aquecedor</value>
+			<value>água</value>
+		</attribute>
+		<attribute name="local">
+			<value>sala</value>
+			<value>quarto</value>
+			<value>escritório</value>
+			<value>cozinha</value>
+			<value>casadebanho</value>
+		</attribute>
+		<attribute name="valor">
+			<value>S_numerograus</value>
+			<value>máximo</value>
+			<value>mínimo</value>
+		</attribute>
+		<questions>
+			<q>Aumenta o arcondicionado do escritório para o máximo.</q>
+			<q>Baixa o arcondicionado do quarto para o mínimo.</q>
+			<q>Aumenta a temperatura do arcondicionado da sala S_numerograus.</q>
+			<q>Sobe a temperatura do arcondicionado do escritório S_numerograus.</q>
+			<q>Baixa o arcondicionado do quarto para o mínimo.</q>
+			<q>Baixa o arcondicionado do escritório para o mínimo, se faz favor.</q>
+			<q>Aumenta a temperatura do arcondicionado da sala para S_numerograus.</q>
+			<q>Aumenta a temperatura do arcondicionado do quarto para S_numerograus.</q>
+			<q>Sobe a temperatura do aquecedor da sala S_numerograus.</q>
+			<q>Faz subir a temperatura do aquecedor do escritório para o máximo</q>
+			<q>Aumenta a temperatura do aquecedor do quarto a S_numerograus</q>
+			<q>Sobe a temperatura do aquecedor da sala para S_numerograus.</q>
+			<q>Está um calor desgraçado, baixa lá o arcondicionado da sala para o mínimo.</q>
+			<q>Estou a assar, baixa lá essa porcaria do arcondicionado do quarto para o mínimo.</q>
+			<q>A água está muito quente, baixa a temperatura da torneira da cozinha para o mínimo.</q>
+			<q>Baixa a temepratura da água da banheira da casadebanho para o mínimo.</q>
+			<q>A água da torneira da cozinha está um gelo, aumenta a temperaura S_numerograus.</q>
+			<q>Sobe a temperatura da água da banheira da casadebanho S_numerograus.</q>
+			<q>Baixa a temperatura da água da banheira S_numerograus, da casadebanho pequena.</q>
+			<q>Podias baixar a temperatura da água da casadebanho pequena S_numerograus.</q>
+			<q>A água está morna, aumenta a temperatura da casadebanho grande S_numerograus.</q>
+			<q>Já podes pôr o arcondicionado da sala no mínimo.</q>
+			<q>Estou a ficar com frio, aumenta a temperatura da água da banheira da casadebanho S_numerograus.</q>
+			<q>Hoje não está tanto frio como ontem, baixa a temperatura do aquecedor da sala S_numerograus.</q>
+			<q>Isto hoje está fresquito, aumenta o aquecedor do quarto para o máximo.</q>
+			<q>Aumenta o arcondicionado do escritório a S_numerograus.</q>
+			<q>A água da banheira da casadebanho tem de ser aumentada S_numerograus.</q>
+			<q>Podias subir o arcondicionado do quarto S_numerograus.</q>
+			<q>Faz subir a temperatura do aquecedor do quarto S_numerograus.</q>
+		</questions>
+	</frame>
+	
+	<frame id="regula_som">
+		<attribute name="dispositivo">
+			<value>rádio</value>
+			<value>aparelhagem</value>
+			<value>televisão</value>
+		</attribute>
+		<attribute name="accao">
+			<value>aumenta</value>
+			<value>baixa,reduz,reduzir</value>
+		</attribute>
+		<attribute name="valor">
+			<value>máximo</value>
+			<value>mínimo</value>
+			<value>pouco,bocadito</value>
+		</attribute>
+		<questions>
+			<q>Aumenta a aparelhagem para o máximo.</q>
+			<q>Aumenta a rádio para o máximo.</q>
+			<q>Quero ouvir esta música, aumenta um pouco o volume da rádio.</q>
+			<q>Preciso de concentrar-me, reduz o som da televisão um pouco.</q>
+			<q>Reduz um pouco o volume da televisão.</q>
+			<q>Aumenta um bocadito o volume do rádio, se faz favor.</q>
+			<q>Baixa um pouco o volume da aparelhagem, se faz favor.</q>
+			<q>Baixa já o volume da aparelhagem para o mínimo.</q>
+			<q>Baixa a aparelhagem um pouco.</q>
+			<q>Reduz para o mínimo o volume da aparelhagem.</q>
+			<q>Adoro esta música, aumenta o volume da televisão para o máximo.</q>
+			<q>Aumenta um bocadito o som da televisão.</q>
+			<q>Reduz o volume da televisão um pouco.</q>
+			<q>Doi-me a cabeça, reduz o volume do rádio para o mínimo, se faz favor.</q>
+			<q>Estou ao telefone, baixa o volume da aparelhagem para o mínimo.</q>
+			<q>Isto é uma festa, aumenta o volume  da aparelhagem para o máximo.</q>
+			<q>Gosto muito deste programa, aumenta um pouco o volume da rádio.</q>
+			<q>Reduz o volume da aparelhagem para o mínimo.</q>
+			<q>Reduz um pouco o volume do rádio.</q>
+			<q>A televisão mal se ouve, aumenta o volume para o máximo.</q>
+			<q>Reduz o rádio para o mínimo.</q>
+			<q>Aumenta o volume da aparelhagem para o máximo.</q>
+			<q>Esta música é boa, aumenta o volume da rádio para o máximo.</q>
+			<q>Estou a curtir muito este som, aumenta o som da aparelhagem para o máximo</q>
+			<q>Estou a ouvir mal a televisão, aumenta o volume um pouco.</q>
+			<q>Adora esta música, aumenta o volume da rádio para o máximo.</q>
+			<q>Os vizinhos vão reclamar, baixa um pouco o som da aparelhagem.</q>
+			<q>Tens de baixar um pouco o volume da aparelhagem.</q>
+			<q>Tens de baixar um pouco o volume da rádio.</q>
+			<q>A televisão está aos berros, reduz o volume para o mínimo.</q>
+			<q>Estou ao telefone, baixa a aparelhagem para o mínimo.</q>
+			<q>Aumenta aí o volume da rádio para o máximo.</q>
+			<q>Podias reduzir um pouco o volume da rádio.</q>
+			<q>Faz reduzir um pouco o volume da aparelhagem.</q>
+			<q>Tenta reduzir o volume da televisão um pouco.</q>
+			<q>Tens de reduzir o volume da televisão um pouco.</q>
+			<q>Reduz um pouco o som da rádio.</q>
+			<q>Reduz aí o som da televisão um pouco.</q>
+			<q>Reduz o volume da aparelhagem para o máximo.</q>
+			<q>Podias reduzir um pouco o volume da televisão.</q>
+		</questions>
+	</frame>
+	
+	<frame id="som_ambiente">
+		<attribute name="dispositivo">
+			<value>rádio</value>
+			<value>aparelhagem</value>
+			<value>CD</value>
+		</attribute>
+		<attribute name="som_a_passar">
+			<value>RFM</value>
+			<value>Comercial</value>
+			<value>faixa S_numero</value>
+			<value>Better man</value>
+			<value>Homem do leme</value>
+			<value>Pearl Jam</value>
+			<value>Xutos</value>
+		</attribute>
+		<questions>
+			<q>Põe a aparelhagem a passar faixa S_numero</q>
+			<q>Muda para a faixa S_numero do CD.</q>
+			<q>Passa o Homem do leme na aparelhagem.</q>
+			<q>Passa para a música Better man do CD.</q>
+			<q>Podias passar o Homem do leme na aparelhagem.</q>
+			<q>Passa para a faixa S_numero do CD.</q>
+			<q>Passa para a rádio Comercial.</q>
+			<q>Passa para a rádio RFM.</q>
+			<q>Põe a passar a faixa S_numero do CD</q>
+			<q>Passa o CD para a música Better man.</q>
+			<q>Tenta encontrar a rádio Comercial.</q>
+			<q>Encontra a rádio RFM.</q>
+			<q>Encontra uma música dos Xutos para eu ouvir na aparelhagem.</q>
+			<q>Encontra a música Better men e mete-a na aparelhagem.</q>
+			<q>Põe a passar a rádio Comercial.</q>
+			<q>Muda para o CD dos Xutos.</q>
+			<q>Põe o Homem do leme a passar na aparelhagem.</q>
+			<q>Passa o CD dos Xutos na aparelhagem.</q>
+			<q>Os Pearl Jam são a minha banda preferida, muda para o CD deles.</q>
+			<q>Muda para a faixa S_numero do cd.</q>
+			<q>Encontra uma música dos Xutos para pôr na aparelhagem.</q>
+			<q>Podes encontrar uma música dos Xutos para pôr na aparelhagem.</q>
+			<q>Encontra a rádio Comercial.</q>
+			<q>Vê lá se consegues encontrar uma música dos Pearl Jam para pôr na parelhagem.</q>
+			<q>Muda para um CD dos Xutos.</q>
+			<q>Podes mudar para um CD dos Pearl Jam.</q>
+			<q>Faz o favor de mudar para a rádio RFM.</q>
+		</questions>
+	</frame>
+	
+	<frame id="regula_o_que_vejo">
+		<attribute name="dispositivo">
+			<value>televisão</value>
+			<value>computador</value>
+			<value>portátil</value>
+		</attribute>
+		<attribute name="conteudo_a_ver">
+			<value>SIC</value>
+			<value>RTP1</value>
+			<value>Último a sair</value>
+			<value>Minutos mágicos</value>
+			<value>Slumdog millionaire</value>
+			<value>Funeral à chuva</value>
+		</attribute>
+		<questions>
+			<q>Muda a televisão para a SIC.</q>
+			<q>Neste canal não dá nada de jeito, muda a televisão para a RTP1.</q>
+			<q>Podes mudar a televisão para a SIC.</q>
+			<q>Eu quero ver a RTP1 no computador.</q>
+			<q>Põe a televisão na SIC.</q>
+			<q>Quero ver o Último a sair na televisão.</q>
+			<q>Mete a televisão a passar o Funeral à chuva.</q>
+			<q>Passa o Slumdog millionaire no portátil.</q>
+			<q>Passa o Slumdog millionaire no computador.</q>
+			<q>Passa o Funeral à chuva na televisão.</q>
+			<q>Põe nos Minutos mágicos, que está a dar na televisão.</q>
+			<q>Quero ver os Minutos mágicos no computador.</q>
+			<q>Muda o computador para o Último a sair.</q>
+			<q>Põe o filme Slumdog millionaire a dar no computador.</q>
+			<q>Estou farto deste programa, muda a televisão para a SIC.</q>
+			<q>Passa o Funeral à chuva no portátil.</q>
+			<q>Põe o Slumdog millionaire a dar no portátil.</q>
+			<q>Apete-me ver os Minutos mágicos na televisão.</q>
+			<q>Bota aí o filme Slumdog millionaire no portátil.</q>
+			<q>Deixa ver se já está a dar o programa de televisão que queria ver na SIC.</q>
+			<q>Põe a dar o Funeral à chuva na televisão.</q>
+			<q>Muda a televisão para a RTP1.</q>
+			<q>Põe o computador a dar o Funeral à chuva.</q>
+			<q>Põe a passar o Slumdog millionaire no computador.</q>
+			<q>Vou fazer um intervalo, mete o Slumdog millionaire no portátil.</q>
+			<q>A ver se está a dar o Último a sair na televisão</q>
+			<q>Muda a televisão para a RTP1 porque já começou o Malato.</q>
+			<q>Mete a RTP1 a passar no computador.</q>
+			<q>Quero ver no computador o Último a sair.</q>
+			<q>Ver o Funeral à chuva no portátil é que era de valor.</q>
+			<q>Meteres o Minutos mágicos no computador era algo mágico.</q>
+			<q>Vamos passar para outro nível, mete a RTP1 no computador.</q>
+			<q>Está a passar o Slumdog millionaire, gostava de ver no computador.</q>
+			<q>Último a sair no portátil, rápido.</q>
+		</questions>
+	</frame>
+	
+	<frame id="regula_luz">
+		<attribute name="accao">
+			<value>aumenta,aumentar,mais</value>
+			<value>diminui,menos</value>
+		</attribute>
+		<attribute name="dispositivo">
+			<value>lâmpada,lâmpadas</value>
+			<value>candeeiro</value>
+		</attribute>
+		<attribute name="local">
+			<value>sala</value>
+			<value>quarto</value>
+			<value>cozinha</value>
+			<value>escritório</value>
+		</attribute>
+		<questions>
+			<q>Põe a luz das lâmpadas do escritório mais fortes.</q>
+			<q>Põe a luz do candeeiro do quarto mais forte.</q>
+			<q>Diminui a intensidade das lâmpadas da sala.</q>
+			<q>Podes aumentar a lâmpada da cozinha.</q>
+			<q>Tenho de poupar energia, diminui a luz das lâmpadas da sala.</q>
+			<q>Podes aumentar as lâmpadas da cozinha.</q>
+			<q>Não vejo nada, aumenta a luz do candeeiro da sala.</q>
+			<q>Diminui a luz do candeeiro do quarto para o mínimo.</q>
+			<q>Vou ler um pouco, aumenta as lâmpadas da sala.</q>
+			<q>Vou ler o jornal, aumenta a luz do candeeiro do quarto.</q>
+			<q>Agora vou ler um livro, aumenta a intensidade das lâmpadas do quarto.</q>
+			<q>Aumenta a luz do candeeiro do escritório.</q>
+			<q>Diminui a luz do candeeiro do escritório.</q>
+			<q>Preciso de mais luz nas lâmpadas da sala.</q>
+			<q>Quero menos luz nas lâmpadas da cozinha.</q>
+			<q>Quero mais luz no candeeiro do escritório.</q>
+			<q>Há pouca luz no escritório, aumenta-a as lâmpadas.</q>
+			<q>Mais luz no candeeiro da sala.</q>
+			<q>Mais luz nas lâmpadas da cozinha.</q>
+			<q>Menos luz no candeeiro do escritório.</q>
+			<q>Menos luz no candeeiro da sala.</q>
+			<q>Raios parta ao PDI, aumenta a luz das lâmpadas sala que eu já não consigo ler as letras pequenas.</q>
+			<q>Por favor, aumenta a luz das lâmpadas da cozinha.</q>
+			<q>Quero menos luz no candeeiro do escritório.</q>
+			<q>Diminui a luz das lâmpadas do quarto.</q>
+			<q>Mete mais luz nas lâmpadas da cozinha.</q>
+			<q>Não acerto com a linha na agulha, mete mais luz nas lâmpadas do quarto.</q>
+			<q>Diminui as luzes das lâmpadas da cozinha.</q>
+			<q>Faz aumentar a luz do candeeiro do quarto.</q>
+			<q>Faz diminuir a luz do candeeiro do escritório.</q>
+			<q>Preciso de mais luz nas lâmpadas do escritório.</q>
+		</questions>
+	</frame>
+	
+	<frame id="regula_estores">
+		<attribute name="accao">
+			<value>sobe,subir,abre,abrir,abertos</value>
+			<value>fecha,fechar,desce,descer,baixa,baixar,fechados</value>
+		</attribute>
+		<attribute name="local">
+			<value>casa de banho</value>
+			<value>sala</value>
+			<value>quarto</value>
+			<value>cozinha</value>
+			<value>escritório</value>
+		</attribute>
+		<attribute name="dispositivo">
+			<value>estores,estor</value>
+		</attribute>
+		<questions>
+			<q>Sobe os estores da sala.</q>
+			<q>Sobe os estores da cozinha.</q>
+			<q>Faz subir os estores da casa de banho.</q>
+			<q>Podes subir os estores do quarto.</q>
+			<q>Sobe o estore do quarto.</q>
+			<q>Abre o estore do escritório.</q>
+			<q>Faz abrir os estores da sala.</q>
+			<q>Fecha o estore da casa de banho.</q>
+			<q>Quero os estores do escritório fechados.</q>
+			<q>Faz descer os estores da cozinha.</q>
+			<q>É de noite, fecha os estores do quarto.</q>
+			<q>Já é de noite, fecha o estore da cozinha.</q>
+			<q>Podes subir os estores do escritório.</q>
+			<q>Põe os estores da cozinha fechados.</q>
+			<q>Faz descer os estores do quarto.</q>
+			<q>Como já se fez noite, desce os estores.</q>
+			<q>Quero os estores da cozinha abertos.</q>
+			<q>Quero os estores da sala abertos.</q>
+			<q>Desce os estores do escritório.</q>
+			<q>Abre os estores, se não te importas.</q>
+			<q>Baixa os estores da casa de banho.</q>
+			<q>Faz descer os estores da cozinha.</q>
+			<q>Põe os estores da sala a descer.</q>
+			<q>Desce os estores do quarto.</q>
+			<q>Já é tarde desce os estores da casa de banho.</q>
+			<q>Agora desce os estores do escritório.</q>
+			<q>Desce os estores da casa de banho.</q>
+			<q>Podes descer os estores da sala.</q>
+			<q>Desce aí o estor da cozinha.</q>
+		</questions>
+	</frame>
+	
+	<frame id="pede_refeicao">
+		<attribute name="refeicao">
+			<value>pequeno-almoço</value>
+			<value>almoço,almoçar</value>
+			<value>jantar</value>
+			<value>lanche</value>
+		</attribute>
+		<attribute name="comida">
+			<value>bitoque</value>
+			<value>torrada</value>
+			<value>palmier de chocolate</value>
+			<value>peixe cozido</value>
+		</attribute>
+		<questions>
+			<q>Hoje quero almoçar um bitoque.</q>
+			<q>Hoje quero almoçar peixe cozido.</q>
+			<q>Quero para o almoço um bitoque.</q>
+			<q>Apetece-me um bitoque para o jantar.</q>
+			<q>Quero um bitoque para o almoço.</q>
+			<q>Estou de dieta, quero peixe cozido para o jantar.</q>
+			<q>Estou faminto, quero um bitoque para o lanche.</q>
+			<q>Está na hora do lanche, quero uma torrada.</q>
+			<q>Para o lanche quero uma torrada.</q>
+			<q>Apetece-me um palmier de chocolate para o lanche.</q>
+			<q>Hoje estou guloso, quero um palmier de chocolate para o lanche.</q>
+			<q>Vou querer uma torrada para o pequeno-almoço.</q>
+			<q>Prepara-me uma torrada para o lanche.</q>
+			<q>Ao lanche vou querer uma torrada.</q>
+			<q>Vou lanchar uma torrada.</q>
+			<q>Vou lanchar um palmier de chocolate.</q>
+			<q>Traz-me um palmier de chocolate para o lanche.</q>
+			<q>Podias trazer-me um bitoque para o almoço.</q>
+			<q>Traz-me um bitoque para o almoço.</q>
+			<q>Quero lanchar uma torrada.</q>
+			<q>Quero almoçar peixe cozido.</q>
+			<q>Hoje vai um bitoque para almoço.</q>
+			<q>Que larica, quero um bitoque para almçar.</q>
+			<q>Estou mesmo com vontade de almoçar peixe cozido.</q>
+			<q>Para almoçar vou só comer uma torrada.</q>
+			<q>Faz-me um bitoque para o almoço.</q>
+			<q>Ao jantar faz um bitoque.</q>
+			<q>Ao almoço faz peixe cozido.</q>
+			<q>Vou almoçar um bitoque.</q>
+		</questions>
+	</frame>
+	
+	<frame id="limpar_casa">
+		<attribute name="accao">
+			<value>limpa,limpar,limpes</value>
+			<value>aspira,aspirar</value>
+			<value>arruma,arrumar,arrumes</value>
+		</attribute>
+		<attribute name="local">
+			<value>casa de banho</value>
+			<value>sala</value>
+			<value>quarto</value>
+			<value>cozinha</value>
+			<value>escritório</value>
+		</attribute>
+		<questions>
+			<q>A cozinha está toda suja, tens que a limpar.</q>
+			<q>Há muito pó na sala, tem que a aspirar.</q>
+			<q>A sala está imunda, tens que a limpar.</q>
+			<q>Limpa a casa de banho.</q>
+			<q>Preciso que arrumes o quarto.</q>
+			<q>Vais ter de arrumar a sala.</q>
+			<q>Arruma a cozinha.</q>
+			<q>O escritório tem muito pó, tens que o aspirar.</q>
+			<q>Arruma a cozinha.</q>
+			<q>Por favor, arruma o escritório.</q>
+			<q>Podes limpar a sala.</q>
+			<q>Limpa a sala.</q>
+			<q>Quero que limpes a casa de banho.</q>
+			<q>Quero que limpes o escritório.</q>
+			<q>Que barafunda, arruma o quarto.</q>
+			<q>A sala está um caos, vais ter que a limpar.</q>
+			<q>Aspira o quarto.</q>
+			<q>Aspira o escritório.</q>
+			<q>A sala está de pantanas, tens que a arrumar</q>
+			<q>Tens de aspirar o escritório.</q>
+			<q>Quero que limpes a casa de banho.</q>
+			<q>Até se respirar mal na sala, tens que a aspirar.</q>
+			<q>Isto é só cabelos, tens de aspirar a casa de banho</q>
+			<q>Vai aspirar o escritório.</q>
+			<q>Aspira aí a sala.</q>
+			<q>Agora aspira o quarto.</q>
+			<q>Começa por aspirar a cozinha.</q>
+			<q>Hoje é dia de aspirar a sala.</q>
+			<q>Vai agora aspirar o quarto.</q>
+			<q>Tens de aspirar a cozinha urgentemente.</q>
+			<q>Amanhã tenho visitas, aspira a sala.</q>
+			<q>Em aspirar o quarto é que está o ganhar.</q>
+			<q>Aspira semanalmente a casa de banho.</q>
+			<q>Aspira a casa, começando pelo escritório.</q>
+			<q>Tens de aspirar a cozinha.</q>
+			<q>Amanhã tenho visitas, aspira a sala.</q>
+			<q>Em aspirar o quarto é que está o ganhar.</q>
+			<q>Aspira semanalmente a casa de banho.</q>
+		</questions>
+	</frame>
+	
+	<frame id="perfumar_casa">
+		<attribute name="local">
+			<value>casa de banho</value>
+			<value>sala</value>
+			<value>quarto</value>
+			<value>cozinha</value>
+			<value>escritório</value>
+		</attribute>
+		<attribute name="fragrancia">
+			<value>rosas</value>
+			<value>limão</value>
+			<value>alfazema</value>
+		</attribute>
+		<questions>
+			<q>A sala cheira mal, liga o ambientador com cheiro a alfazema.</q>
+			<q>Muda o ambientar da sala para rosas.</q>
+			<q>Podes mudar o ambientador da cozinha para limão.</q>
+			<q>Põe a sala a cheirar a limão.</q>
+			<q>Põe o escritório a cheirar a rosas</q>
+			<q>Muda o cheiro do quarto para alfazema.</q>
+			<q>Muda o cheiro da casa de banho para rosas.</q>
+			<q>Põe a casa de banho a cheirar a limão.</q>
+			<q>Quero um cheiro a alfazema na sala.</q>
+			<q>Quero um cheiro a alfazema na casa de banho.</q>
+			<q>Mete a cozinha a cheirar a limão.</q>
+			<q>Quero sentir um cheiro a rosas na cozinha.</q>
+			<q>Quero sentir uma fragrância a alfazema no escritório.</q>
+			<q>Quero sentir uma fragrância a limão na casa de banho.</q>
+			<q>Quero que a sala fique a cheirar a limão.</q>
+			<q>Quero que o escritório fique a cheirar a alfazema.</q>
+			<q>Podes pôr um cheiro a rosas na sala.</q>
+			<q>Podes pôr um cheiro a limão no quarto.</q>
+			<q>Quero que o quarto cheire a limão.</q>
+			<q>Põe o ambientador do quarto a deitar cheiro a alfazema.</q>
+			<q>Põe o ambientador da cozinha a deitar cheiro a rosas.</q>
+			<q>Quero um cheirinho a limão no quarto.</q>
+			<q>Põe a sala a cheirar a alfazema.</q>
+			<q>Liga o ambientador da casa de banho com cheiro a rosas.</q>
+			<q>Mete cheiro a limão do ambientador da cozinha.</q>
+			<q>Mete a sala a cheirar a alfazema.</q>
+			<q>Muda o cheiro do quarto para limão.</q>
+			<q>Quero que o escritório fique a cheirar a alfazema.</q>
+			<q>Quero um cheiro a limão na cozinha.</q>
+		</questions>
+	</frame>
+	
+	<frame id="fazer_comunicacao">
+		<attribute name="forma_de_comunicao">
+			<value>telefonar,telefona,telefone</value>
+			<value>e-mail</value>
+			<value>skype</value>
+		</attribute>
+		<attribute name="destinatario">
+			<value>Pedro</value>
+			<value>José</value>
+			<value>Polícia</value>
+			<value>IST</value>
+		</attribute>
+		<questions>
+			<q>Telefona ao Pedro.</q>
+			<q>Preciso de telefonar ao José.</q>
+			<q>Liga do telefone ao Pedro.</q>
+			<q>Preciso de telefonar urgentemente ao IST.</q>
+			<q>Telefona à Polícia.</q>
+			<q>Manda um e-mail ao IST.</q>
+			<q>Manda um e-mail ao Pedro.</q>
+			<q>Envia um e-mail ao José.</q>
+			<q>Envia um e-mail à José.</q>
+			<q>Liga-me ao Pedro pelo skype.</q>
+			<q>Quero falar com o José pelo skype.</q>
+			<q>Usa o skype para eu contactar com o Pedro.</q>
+			<q>Liga-me ao José pelo skype.</q>
+			<q>Quero telefonar à Polícia.</q>
+			<q>Telefona à Polícia.</q>
+			<q>Preciso de telefonar com urgência ao Pedro.</q>
+			<q>Quero telefonar ao IST.</q>
+			<q>Quero mandar um e-mail ao José.</q>
+			<q>Podes ligar-me ao IST por telefone.</q>
+			<q>Telefona ao José.</q>
+			<q>Liga o skype para falar com o Pedro.</q>
+		</questions>
+	</frame>
+	
+	<frame id="tratar_roupa">
+		<attribute name="accao">
+			<value>lava,lavar</value>
+			<value>passa,passar</value>
+		</attribute>
+		<attribute name="peca_roupa">
+			<value>toda a roupa</value>
+			<value>roupa de cor</value>
+			<value>roupa escura</value>
+			<value>calças</value>
+			<value>camisa,camisas</value>
+		</attribute>
+		<questions>
+			<q>Passa as camisas.</q>
+			<q>Passa as calças a ferro.</q>
+			<q>Põe a roupa escura a lavar.</q>
+			<q>Põe toda a roupa a lavar.</q>
+			<q>Põe a roupa de cor a lavar</q>
+			<q>Faz uma máquina de roupa escura.</q>
+			<q>Faz uma máquina de roupa de cor.</q>
+			<q>Vais ter de passar estas calças.</q>
+			<q>Vais ter de passar esta camisa.</q>
+			<q>Fiz uma nodoa nesta camisa, tens que a lavar.</q>
+			<q>Estas calças têm uma nódoa, tens que as lavar.</q>
+			<q>Vai lavar estas calças.</q>
+			<q>Lava toda a roupa.</q>
+			<q>Lava só a roupa escura.</q>
+			<q>Lava só a roupa de cor.</q>
+			<q>Quero que ponhas toda a roupa a lavar.</q>
+			<q>Quero que ponhas estas camisas a lavar.</q>
+			<q>Esta camisa tem vinco, vais ter que a passar.</q>
+			<q>Passa as camisas primeiro.</q>
+			<q>Passa agora as claças a ferro.</q>
+			<q>Passa toda a roupa a ferro</q>
+			<q>Podias lavar as minhas camisas.</q>
+			<q>Lava aí as camisas.</q>
+			<q>Vais ter de lavar as camisas.</q>
+			<q>Vou ter uma reunião importante, lava esta camisa.</q>
+			<q>Faz o favor de lavar as camisas.</q>
+			<q>Podes lavar esta camisas, se faz favor.</q>
+			<q>Põe as camisas a lavar.</q>
+			<q>Mete as camisas a lavar.</q>
+		</questions>
+	</frame>
+	
+	<frame id="informar">
+		<attribute name="data">
+			<value>hoje</value>
+			<value>amanhã</value>
+		</attribute>
+		<attribute name="topico">
+			<value>agenda</value>
+			<value>tempo</value>
+		</attribute>
+		<questions>
+			<q>Diz-me a minha agenda para hoje.</q>
+			<q>Qual é a minha agenda para amanhã.</q>
+			<q>O que tenho na agenda para hoje.</q>
+			<q>Quero saber o que tenho na agenda para amanhã.</q>
+			<q>Qual é o tempo para hoje.</q>
+			<q>Hoje faz bom tempo.</q>
+			<q>Amanhã como vai estar o tempo.</q>
+			<q>Qual é o tempo para amanhã.</q>
+			<q>Tenho a agenda ocupada hoje.</q>
+			<q>Tenho a agenda preenchida amanhã.</q>
+			<q>Hoje queria ir à praia, vai fazer bom tempo.</q>
+			<q>Amanhã vai fazer bom tempo para a praia.</q>
+			<q>Diz-me o tempo para hoje.</q>
+			<q>Diz-me o tempo para amanhã.</q>
+			<q>Quero saber o tempo para amanhã.</q>
+			<q>Podes dizer-me o que tenho hoje na agenda.</q>
+			<q>Como está a minha agenda para hoje.</q>
+			<q>Como vai estar a minha agenda amanhã.</q>
+			<q>Sabes como vai estar o tempo hoje.</q>
+			<q>O que tenho na agenda hoje.</q>
+			<q>Tenho muita coisa marcada na agenda para amanhã.</q>
+		</questions>
+	</frame>
+	
+	<frame id="jardinagem">
+		<attribute name="accao">
+			<value>corta,cortar</value>
+			<value>apara,aparar,apares</value>
+			<value>rega,regar</value>
+		</attribute>
+		<attribute name="planta">
+			<value>rosas</value>
+			<value>relva</value>
+			<value>arbusto,arbustos</value>
+		</attribute>
+		<questions>
+			<q>As rosas precisam de água, tens que as regar.</q>
+			<q>As rosas estão a ficar secas, vais ter que as regar.</q>
+			<q>Rega as rosas.</q>
+			<q>A relva está a secar, tens que a regar.</q>
+			<q>Rega a relva.</q>
+			<q>A relva está muito alta, tens que a cortar.</q>
+			<q>Podes aparar a relva.</q>
+			<q>Rega o arbusto.</q>
+			<q>Preciso que apares o arbusto.</q>
+			<q>Corta as rosas.</q>
+			<q>Quero que regues os arbustos.</q>
+			<q>Os arbusto estão a murchar, tens que os regar.</q>
+			<q>Corta os arbustos.</q>
+			<q>Os arbustos estão a ficar feios, tens que os cortar.</q>
+			<q>Preciso que apares os arbustos.</q>
+			<q>Apara o arbusto.</q>
+			<q>Vais ter de ir regar a relva.</q>
+			<q>As rosas estão cheias de sede, vais ter de as regar.</q>
+			<q>Vai regar a relva.</q>
+			<q>Quero que apares a relva.</q>
+			<q>Quero que vás crotar a relva.</q>
+			<q>Está um calor desgraçado, vai regar as rosas.</q>
+			<q>Que calor, rega a relva.</q>
+			<q>A relva vai secar, tens que a regar.</q>
+			<q>Rega a relva se faz favor.</q>
+			<q>Hoje vais ter e regar a relva.</q>
+			<q>Quero que vás regar a relva.</q>
+			<q>A relva vai morrer, tens que a regar.</q>
+			<q>Faz-me o favor de regar a relva.</q>
+		</questions>
+	</frame>
+	
+	<frame id="muda_cor">
+		<attribute name="objecto">
+			<value>tecto</value>
+			<value>parede</value>
+			<value>chão</value>
+			<value>sofá</value>
+		</attribute>
+		<attribute name="cor">
+			<value>vermelho</value>
+			<value>azul</value>
+			<value>amarelo,amarela</value>
+		</attribute>
+		<attribute name="local">
+			<value>casa de banho</value>
+			<value>sala</value>
+			<value>quarto</value>
+			<value>cozinha</value>
+			<value>escritório</value>
+		</attribute>
+		<questions>
+			<q>Muda a cor da parede da sala para azul.</q>
+			<q>Quero que mudes o chão do quarto para vermelho.</q>
+			<q>Quero ver se o chão da cozinha fica bem de amarelo.</q>
+			<q>Quero que o sofá do escritório seja azul.</q>
+			<q>Muda o sofá do escritório para vermelho.</q>
+			<q>Vamos ver se a parede do quarto fica bem de azul.</q>
+			<q>Muda o chão do escritório para vermelho.</q>
+			<q>Muda a cor do tecto da cozinha para amarelo.</q>
+			<q>A cozinha ficava bem com um tecto amarelo.</q>
+			<q>O chão do escritório ficava bem de amarelo.</q>
+			<q>A ver se gosto de vermelho para  tecto da cozinha.</q>
+			<q>A ver se gosto da parede do escritório em azul.</q>
+			<q>Muda a parede da cozinha para azul.</q>
+			<q>Quero experimentar pôr o tecto do escritório azul.</q>
+			<q>Pinta a parede da cozinha de vermelho.</q>
+			<q>Pinta o chão do quarto de azul.</q>
+			<q>Quero experimentar pôr o chão da sala amerelo.</q>
+			<q>Quero ver se a parede do quarto fica bonita de vermelho.</q>
+			<q>Acho que o tecto do quarto ficava bem de amarelo.</q>
+			<q>Acho que a parede da sala ficava bem de azul.</q>
+			<q>Acho o quarto ficava bem com uma parede amarela.</q>
+		</questions>
+	</frame>
+	
+	<frame id="cuidar_animal_estimacao">
+		<attribute name="accao">
+			<value>passeia,passear</value>
+			<value>alimenta,alimenta-o,alimentar</value>
+			<value>dá,dar,dá-lhe</value>
+		</attribute>
+		<attribute name="animal">
+			<value>cão</value>
+			<value>gato</value>
+		</attribute>
+		<questions>
+			<q>Dá banho ao cão.</q>
+			<q>Vai dar banho ao gato.</q>
+			<q>Vai passear o cão.</q>
+			<q>O cão tem fome, alimenta-o</q>
+			<q>Está na hora de alimentar o cão.</q>
+			<q>Está na hora de alimentar o gato.</q>
+			<q>Vai passear o gato.</q>
+			<q>Dá banho ao gato.</q>
+			<q>O gato está sujo, dá-lhe banho.</q>
+			<q>O cão quer ir passear.</q>
+			<q>O gato precisa de se alimentar.</q>
+			<q>O cão esteve o dia todo em casa, leva-o a passear.</q>
+			<q>Quero que leves o cão a passear.</q>
+			<q>Passeia o cão.</q>
+			<q>Leva o cão a passear.</q>
+			<q>Tens de dar banho ao gato.</q>
+			<q>Tens de dar banho ao cão.</q>
+			<q>Preciso que vás passear o cão.</q>
+			<q>Alimenta o gato.</q>
+			<q>Alimenta o cão.</q>
+			<q>O gato tem fome, alimenta-o.</q>
+		</questions>
+	</frame>		
+</FramesDefinition>

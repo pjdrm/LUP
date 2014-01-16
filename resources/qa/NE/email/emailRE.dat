@@ -1,0 +1,94 @@
+#LOC#	Braga/Santa Tecla
+#LOC#	Lisboa
+#LOC#	Aveiro
+#LOC#	Porto Salvo
+#LOC#	Porto
+#LOC#	Seixal
+#LOC#	Tomar
+#LOC#	Quinta dos Inglesinhos
+#LOC#	Santo Tirso
+#LOC#	OLIVEIRA DO BAIRRO
+#LOC#	Monte Estoril
+#LOC#	ALMADA
+#LOC#	CASAL DE CAMBRA
+#LOC#	Vila Verde
+#LOC#	Abrantes
+#LOC#	Arouca
+#LOC#	Faro
+#LOC#	Torre/Cascais
+#LOC#	Braga
+#LOC#	Telheiras
+#LOC#	Caxias
+#LOC#	Loures
+#LOC#	Vila do Conde
+#LOC#	Senhora da Hora
+#LOC#	Leiria
+#LOC#	Alcantara
+#LOC#	Matosinhos
+#LOC#	Alvalade
+#LOC#	Linda-a-Velha
+#LOC#	Cascais - Infante D\. Henrique
+#LOC#	Campo 24 de Agosto
+#LOC#	Paco de Arcos
+#LOC#	Vila Praia de Ancora
+#LOC#	Sede
+#MORADA#	(Av\.|Rua|R|PCT|TV) .* #LOC#
+#SITE#	<a href=[^>]*>( clique )(aqui</a>)?
+#SITE#	<a href=[^>]*>aqui</a>
+#SITE#	<a href=[^>]*>.*</a></b>
+#SITE#	clique <[^>]*>
+#EMAIL#	<[^<]+\.(pt|com)>
+#NUM_Quantia#	(([0-9]+|([0-9]+(\.|,)[0-9]+)+) a )?([0-9]+|([0-9]+(\.|,)[0-9]+)+) ?([Ee][Uu][Rr][Oo][Ss]?|€)
+#NUM_Quantia#	[Cc][Oo][Bb][Rr][Aa][Dd][Oo] [0-9]+([\.,][0-9]+)
+#NUM_Quantia#	[0-9]+([\.,][0-9]+)? [Cc][EêÊe][Nn][Tt][Ii][Mm][Oo][Ss]?
+#NUM_Quantia#	[0-9]+([\.,][0-9]+)? para [0-9]+([\.,][0-9]+)? 
+#NUM_Telefone#	(91|93|96)[0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+#NUM_Tempo#	[0-9]+ (dias?|meses|mês|semana|semanas|ano(s?))( e mei[oa])?
+#Data#	[0-9]+ (de )?([Jj]aneiro|[Ff]evereiro[Mm]arço|[Aa]bril|[Mm]aio|[Jj]unho|[Jj]ulho|[Aa]gosto|[Ss]etembro|[Oo]utubro|[Nn]ovembro|[Dd]ezembro)
+#Data#	([Jj]aneiro|[Ff]evereiro|[Mm]arço|[Aa]bril|[Mm]aio|[Jj]unho|[Jj]ulho|[Aa]gosto|[Ss]etembro|[Oo]utubro|[Nn]ovembro|[Dd]ezembro) de [0-9]+
+#Data#	(dia|de) [0-9]+ 
+#Data#	desde [21][0-9][0-9][0-9]
+#Data#	[0-9][0-9][/-][0-9][0-9]([/-][0-9][0-9]([0-9][0-9])?)?
+#NUM_Cartao#	cartao [0-9]+
+#NUM_Conta#	conta [0-9]+( [0-9]+)*
+#NUM_Apolice#	ap[óo]lice de ([a-z]+)? [0-9]+(/[0-9]+)?
+#NUM_ID#	[nN]º? [0-9]+(/[0-9]+)?
+#NUM_Transferencia#	LOR [0-9]+( [0-9]+)*
+#NOME#	Sra?\.? [A-Z]\.?[a-z]+( [A-Z]\.?[a-z]+)*
+#NUM#	[0-9]+( [0-9]+)*
+#AGENCIA#	Agencia BES de[^\.]+[\.,]
+#AGENCIA#	Agencia Gestora \([a-zA-Z]+ -? ?[a-zA-Z]+\)
+#AGENCIA#	Agencia Gestora( ?- ?#LOC#)?
+#AGENCIA#	Agencia d[ae] #LOC#
+#AGENCIA#	Agencia BES - [a-zA-Z]+( [a-zA-Z]+)?,
+#AGENCIA#	Agencia BES - #LOC#
+#Chavao#	 ?Em resposta ao exposto,?
+#Chavao#	 ?Em resposta as suas questoes,?
+#Chavao#	 ?Em resposta a sua questao,?
+#Chavao#	 ?Em resposta a sua questao e para melhor analise da situacao em apreco,?
+#Chavao#	 ?Em resposta ao seu pedido,?
+#Chavao#	 ?Na sequencia da situacao reportada,?
+#Chavao#	 ?No seguimento da situacao reportada,?
+#Chavao#	 ?Em resposta a sua mensagem,?
+#Chavao#	 ?Em resposta ao solicitado,?
+#Chavao#	 ?Em resposta a situacao reportada,?
+#Chavao#	Encontramo-nos disponiveis para esclarecer qualquer outra questao que possa eventualmente surgir\.?
+#Chavao#	Desde ja nos disponibilizamos para esclarecer qualquer questao que eventualmente possa surgir\.?
+#Chavao#	Desde ja nos disponibilizamos para esclarecer qualquer outra questao\.?
+#Chavao#	Agradecemos a mensagem, a qual mereceu a nossa especial atencao\.?
+#Chavao#	Agradecemos a sua mensagem, a qual mereceu a nossa especial atencao\.?
+#Chavao#	informamos que o mesmo foi remetido a #AGENCIA#, por forma a obter a resolucao do assunto em apreco\. Mais informamos que sera contactad[oa] com a brevidade possivel por um colaborador da referida Agencia, para que lhe possam ser prestados os devidos esclarecimentos\.?
+#Chavao#	informamos que o mesmo foi remetido a sua #AGENCIA#, pelo que sera contactad[oa] com a maior brevidade possivel por um colaborador da mesma, tendo em vista a resolucao do assunto em apreco\. Desde ja nos disponibilizamos para esclarecer qualquer questao\.?
+#Chavao#	e apos contacto telefonico com a sua #AGENCIA#, informamos que sera contactad[oa] por um colaborador da mesma, com a maior brevidade possivel, de forma a ser-lhe prestado um atendimento personalizado mais adequado a natureza da situacao\.?
+#Chavao#	informamos que a mesma foi encaminhada para a sua #AGENCIA# de forma a ser devidamente analisada, pelo que solicitamos que aguarde um contacto por parte da mesma.
+#Chavao#	informamos que a (situacao|mensagem) em apreco foi encaminhada para a sua #AGENCIA#,? de forma a ser devidamente analisada\. Posteriormente e com a maior brevidade possivel, sera contactad[oa] por um Colaborador da (Agencia supracitada|mesma), para que lhe seja prestado um esclarecimento mais adequado a natureza da situacao\.?
+#Chavao#	informamos que a mesma foi encaminhada para a sua #AGENCIA# de forma a ser devidamente analisada\. Sera contactad[oa] com a maior brevidade possivel por um Colaborador desta Agencia BES, para que lhe possam ser prestados todos os esclarecimentos que considere uteis\.?
+#Chavao#	informamos que a mesma foi encaminhada para a sua Agencia de forma a ser devidamente analisada\.?
+#Chavao#	e apos contacto com a sua #AGENCIA#, informamos que a mesma ira entrar em contacto consigo, de forma a ser dado o devido esclarecimento\.?
+#Chavao#	informamos que o assunto em apreco foi reencaminhado a sua #AGENCIA#, pelo que sera contactad[oa] com a maior brevidade possivel, para que lhe sejam prestados todos os esclarecimentos necessarios\. Desde ja nos disponibilizamos para esclarecer qualquer questao\.?
+#Chavao#	informamos que encaminhamos o mesmo para a sua #AGENCIA#, a qual nos indicou que a ira contactar telefonicamente, para que lhe possam ser prestados os devidos esclarecimentos sobre a situacao reportada\.?
+#Chavao#	informamos que a mesma foi encaminhada de forma a ser devidamente analisada\.?
+#Chavao#	informamos que a situacao em apreco foi encaminhada para a sua #AGENCIA# para tomada de conhecimento\. Sera contactad[ao] pelo seu Gestor de Conta, com a maior brevidade possivel, para que lhe seja prestado um esclarecimento mais adequado a natureza da situacao\.?
+#Chavao#	informamos que o mesmo foi encaminhado para a sua #AGENCIA# de forma a ser devidamente analisado\.
+#Chavao#	informamos que reportamos a mesma a sua #AGENCIA#, de forma a ser devidamente analisada\. Mais informamos, que sera contactado telefonicamente por um Colaborador da Agencia, com a maior brevidade possivel, de forma a ser-lhe prestado um atendimento personalizado mais adequado a natureza da situacao\.
+#Chavao#	#Chavao#(( | \.)?#Chavao#)+

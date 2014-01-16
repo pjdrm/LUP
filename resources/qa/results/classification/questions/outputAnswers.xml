@@ -1,0 +1,577 @@
+<test>
+	<questions>
+		<question category = "EDGAR_1">
+			<text>welcome</text>
+		</question>
+		<question category = "EDGAR_1">
+			<text>boa tarde</text>
+		</question>
+		<question category = "EDGAR_1">
+			<text>ois</text>
+		</question>
+		<question category = "EDGAR_2">
+			<text>es o mordomo aqui do sitio</text>
+		</question>
+		<question category = "EDGAR_9">
+			<text>qual a tua profissao</text>
+		</question>
+		<question category = "EDGAR_4">
+			<text>ate amanha</text>
+		</question>
+		<question category = "EDGAR_4">
+			<text>entao adeus</text>
+		</question>
+		<question category = "EDGAR_4">
+			<text>gostei muito de falar consigo</text>
+		</question>
+		<question category = "EDGAR_5">
+			<text>como te chamas</text>
+		</question>
+		<question category = "EDGAR_10">
+			<text>como se chama</text>
+		</question>
+		<question category = "EDGAR_10">
+			<text>como e que se chama</text>
+		</question>
+		<question category = "EDGAR_5">
+			<text>qual o teu nome completo</text>
+		</question>
+		<question category = "EDGAR_16">
+			<text>es casado</text>
+		</question>
+		<question category = "EDGAR_10">
+			<text>e solteiro</text>
+		</question>
+		<question category = "EDGAR_11">
+			<text>qual e o nome dos teus pais</text>
+		</question>
+		<question category = "EDGAR_12">
+			<text>tem irmaos</text>
+		</question>
+		<question category = "EDGAR_7">
+			<text>onde moras</text>
+		</question>
+		<question category = "EDGAR_7">
+			<text>moras onde</text>
+		</question>
+		<question category = "EDGAR_9">
+			<text>qual e a coisa qual e ela cai no chao fica amarela</text>
+		</question>
+		<question category = "EDGAR_6">
+			<text>que idade e que tens</text>
+		</question>
+		<question category = "EDGAR_6">
+			<text>qual a sua idade</text>
+		</question>
+		<question category = "EDGAR_6">
+			<text>qual a tua idade</text>
+		</question>
+		<question category = "EDGAR_6">
+			<text>quantos anos tens</text>
+		</question>
+		<question category = "EDGAR_6">
+			<text>quantos anos e que tens</text>
+		</question>
+		<question category = "EDGAR_6">
+			<text>qual e que e a tua idade</text>
+		</question>
+		<question category = "EDGAR_6">
+			<text>qual e que e a sua idade</text>
+		</question>
+		<question category = "EDGAR_16">
+			<text>es portista</text>
+		</question>
+		<question category = "EDGAR_18">
+			<text>es de que clube de futebol</text>
+		</question>
+		<question category = "EDGAR_9">
+			<text>a tua nacionalidade e qual</text>
+		</question>
+		<question category = "EDGAR_9">
+			<text>es de onde</text>
+		</question>
+		<question category = "EDGAR_14">
+			<text>sabe alguma coisa deste palacio</text>
+		</question>
+		<question category = "EDGAR_16">
+			<text>es brilhante</text>
+		</question>
+		<question category = "EDGAR_1">
+			<text>vai passear</text>
+		</question>
+		<question category = "EDGAR_16">
+			<text>es feio</text>
+		</question>
+		<question category = "EDGAR_5">
+			<text>quem</text>
+		</question>
+		<question category = "GERAL_7">
+			<text>nao estou a perceber nada</text>
+		</question>
+		<question category = "GERAL_7">
+			<text>estasme a deixar confuso</text>
+		</question>
+		<question category = "GERAL_7">
+			<text>nao era isso que eu queria saber</text>
+		</question>
+		<question category = "GERAL_2">
+			<text>nao percebi a sua resposta</text>
+		</question>
+		<question category = "EDGAR_16">
+			<text>so sabes essa</text>
+		</question>
+		<question category = "MONSERRATE_50">
+			<text>perdeuse o rasto aos moveis todos</text>
+		</question>
+		<question category = "MONSERRATE_51">
+			<text>a quem pertenceu a propriedade</text>
+		</question>
+		<question category = "MONSERRATE_51">
+			<text>a quem ja pertenceu a propriedade</text>
+		</question>
+		<question category = "MONSERRATE_51">
+			<text>a quem pertenceu isto</text>
+		</question>
+		<question category = "MONSERRATE_52">
+			<text>quem e o actual dono do palacio</text>
+		</question>
+		<question category = "MONSERRATE_53">
+			<text>o que e que e a parques de sintra</text>
+		</question>
+		<question category = "MONSERRATE_54">
+			<text>a parques de sintra existe desde quando</text>
+		</question>
+		<question category = "MONSERRATE_55">
+			<text>quanto e que custou a recuperacao do palacio</text>
+		</question>
+		<question category = "MONSERRATE_27">
+			<text>o que havia aqui antes do palacio</text>
+		</question>
+		<question category = "MONSERRATE_27">
+			<text>o que e que havia aqui antes do palacio</text>
+		</question>
+		<question category = "MONSERRATE_56">
+			<text>quando foram feitas obras de restauro no palacio</text>
+		</question>
+		<question category = "MONSERRATE_28">
+			<text>quem aqui viveu</text>
+		</question>
+		<question category = "MONSERRATE_28">
+			<text>quem viveu aqui</text>
+		</question>
+		<question category = "MONSERRATE_50">
+			<text>de que consta o restauro do interior</text>
+		</question>
+		<question category = "MONSERRATE_57">
+			<text>o que e que se fez ca dentro</text>
+		</question>
+		<question category = "MONSERRATE_29">
+			<text>quem foi esse william beckford</text>
+		</question>
+		<question category = "MONSERRATE_29">
+			<text>quem e que era beckford</text>
+		</question>
+		<question category = "MONSERRATE_29">
+			<text>quem foi esse beckford</text>
+		</question>
+		<question category = "MONSERRATE_29">
+			<text>quem e que foi esse beckford</text>
+		</question>
+		<question category = "MONSERRATE_57">
+			<text>o que e que se fez la fora</text>
+		</question>
+		<question category = "MONSERRATE_24">
+			<text>quem e que era gerard devisme</text>
+		</question>
+		<question category = "MONSERRATE_24">
+			<text>quem foi gerard devisme</text>
+		</question>
+		<question category = "MONSERRATE_24">
+			<text>devisme era quem</text>
+		</question>
+		<question category = "MONSERRATE_26">
+			<text>quem construiu a capela</text>
+		</question>
+		<question category = "MONSERRATE_26">
+			<text>quem foi que construiu a capela</text>
+		</question>
+		<question category = "MONSERRATE_26">
+			<text>que rei mandou construir a capela</text>
+		</question>
+		<question category = "MONSERRATE_26">
+			<text>quem construiu a capela dedicada a virgem de monserrate</text>
+		</question>
+		<question category = "MONSERRATE_25">
+			<text>era como o palacio de gerard devisme</text>
+		</question>
+		<question category = "MONSERRATE_20">
+			<text>quem era francis cook</text>
+		</question>
+		<question category = "MONSERRATE_20">
+			<text>quem era visconde monserrate</text>
+		</question>
+		<question category = "MONSERRATE_1">
+			<text>onde fica o palacio</text>
+		</question>
+		<question category = "MONSERRATE_1">
+			<text>onde fica monserrate</text>
+		</question>
+		<question category = "MONSERRATE_1">
+			<text>o palacio fica onde</text>
+		</question>
+		<question category = "MONSERRATE_22">
+			<text>quando foi construido este palacio</text>
+		</question>
+		<question category = "MONSERRATE_22">
+			<text>quanto tempo demorou a construcao do palacio</text>
+		</question>
+		<question category = "MONSERRATE_22">
+			<text>em que altura foi construido</text>
+		</question>
+		<question category = "MONSERRATE_22">
+			<text>em que altura foi construido o palacio</text>
+		</question>
+		<question category = "MONSERRATE_2">
+			<text>o que e que ha no palacio de monserrate</text>
+		</question>
+		<question category = "MONSERRATE_2">
+			<text>vale a pena visitar o palacio</text>
+		</question>
+		<question category = "MONSERRATE_2">
+			<text>como e que convenceria alguem a visitar o palacio de monserrate</text>
+		</question>
+		<question category = "MONSERRATE_21">
+			<text>porque e que o senhor cook era tao rico</text>
+		</question>
+		<question category = "MONSERRATE_21">
+			<text>porque e que francis cook era tao rico</text>
+		</question>
+		<question category = "MONSERRATE_21">
+			<text>como e que o cook era tao rico</text>
+		</question>
+		<question category = "MONSERRATE_3">
+			<text>o estilo arquitectonico e qual</text>
+		</question>
+		<question category = "MONSERRATE_3">
+			<text>o estilo arquitectonico do edificio e qual</text>
+		</question>
+		<question category = "MONSERRATE_3">
+			<text>qual o tipo de arquitectura que caracteriza o palacio</text>
+		</question>
+		<question category = "MONSERRATE_52">
+			<text>quem foi o arquitecto do palacio</text>
+		</question>
+		<question category = "MONSERRATE_6">
+			<text>quais e que sao as influencias estilisticas do palacio</text>
+		</question>
+		<question category = "MONSERRATE_7">
+			<text>o que e que e o ecletismo</text>
+		</question>
+		<question category = "MONSERRATE_8">
+			<text>o que e o romantismo</text>
+		</question>
+		<question category = "MONSERRATE_8">
+			<text>o romantismo e que</text>
+		</question>
+		<question category = "MONSERRATE_9">
+			<text>o que e que e o revivalismo</text>
+		</question>
+		<question category = "MONSERRATE_9">
+			<text>o revivalismo e que</text>
+		</question>
+		<question category = "MONSERRATE_62">
+			<text>quando foram instaladas as redes de infraestruturas</text>
+		</question>
+		<question category = "MONSERRATE_66">
+			<text>quem e que faz os trabalhos de conservacao e restauro</text>
+		</question>
+		<question category = "MONSERRATE_63">
+			<text>como foram instaladas as redes de infraestruturas</text>
+		</question>
+		<question category = "MONSERRATE_63">
+			<text>como foi feita a instalacao das redes de infraestruturas</text>
+		</question>
+		<question category = "MONSERRATE_37">
+			<text>que trabalhos de conservacao e restauro foram executados</text>
+		</question>
+		<question category = "MONSERRATE_18">
+			<text>porque se chama monserrate</text>
+		</question>
+		<question category = "MONSERRATE_18">
+			<text>ha alguma relacao com a montanha monserrate de bogota</text>
+		</question>
+		<question category = "MONSERRATE_18">
+			<text>ha alguma relacao com a montanha de bogota</text>
+		</question>
+		<question category = "MONSERRATE_18">
+			<text>porque se chama palacio de monserrate</text>
+		</question>
+		<question category = "MONSERRATE_69">
+			<text>porque nao se pode ir a cozinha</text>
+		</question>
+		<question category = "MONSERRATE_19">
+			<text>quem construiu o palacio</text>
+		</question>
+		<question category = "MONSERRATE_19">
+			<text>o palacio foi construido por quem</text>
+		</question>
+		<question category = "MONSERRATE_19">
+			<text>o palacio foi feito por quem</text>
+		</question>
+		<question category = "MONSERRATE_19">
+			<text>que rei e que mandou construir este palacio</text>
+		</question>
+		<question category = "MONSERRATE_19">
+			<text>quem foi o rei que mandou construir este palacio</text>
+		</question>
+		<question category = "MONSERRATE_16">
+			<text>podese estacionar onde para visitar o palacio</text>
+		</question>
+		<question category = "MONSERRATE_16">
+			<text>onde posso estacionar</text>
+		</question>
+		<question category = "EDGAR_7">
+			<text>podese estacionar onde</text>
+		</question>
+		<question category = "MONSERRATE_67">
+			<text>quando reabriu o palacio a visita</text>
+		</question>
+		<question category = "MONSERRATE_67">
+			<text>quando e que reabriu o palacio ao publico</text>
+		</question>
+		<question category = "MONSERRATE_15">
+			<text>quantas casas de banho tem o palacio</text>
+		</question>
+		<question category = "MONSERRATE_15">
+			<text>quantas casas de banho e que existem no palacio</text>
+		</question>
+		<question category = "MONSERRATE_15">
+			<text>quantas casas de banho e que ha no palacio</text>
+		</question>
+		<question category = "MONSERRATE_14">
+			<text>quantas janelas tem o palacio</text>
+		</question>
+		<question category = "MONSERRATE_14">
+			<text>no palacio ha quantas janelas</text>
+		</question>
+		<question category = "MONSERRATE_13">
+			<text>quais e que sao as dimensoes do palacio</text>
+		</question>
+		<question category = "MONSERRATE_13">
+			<text>qual e a area do palacio</text>
+		</question>
+		<question category = "MONSERRATE_12">
+			<text>o palacio tem quantos quartos</text>
+		</question>
+		<question category = "MONSERRATE_12">
+			<text>quantos quartos ha</text>
+		</question>
+		<question category = "MONSERRATE_71">
+			<text>onde estao as esculturas que decoravam o corredor</text>
+		</question>
+		<question category = "MONSERRATE_71">
+			<text>para onde e que foram as esculturas que decoravam o corredor</text>
+		</question>
+		<question category = "MONSERRATE_72">
+			<text>onde e que estao os livros</text>
+		</question>
+		<question category = "MONSERRATE_72">
+			<text>onde e que estao os livros da biblioteca</text>
+		</question>
+		<question category = "MONSERRATE_72">
+			<text>os livros da biblioteca estao onde</text>
+		</question>
+		<question category = "MONSERRATE_73">
+			<text>a biblioteca vai voltar a ter livros um dia</text>
+		</question>
+		<question category = "MONSERRATE_73">
+			<text>a biblioteca vai voltar a ter livros</text>
+		</question>
+		<question category = "EDGAR_7">
+			<text>onde se encontram os objectos leiloados</text>
+		</question>
+		<question category = "MONSERRATE_49">
+			<text>onde estao os moveis e estatuas que decoravam o palacio</text>
+		</question>
+		<question category = "MONSERRATE_49">
+			<text>os moveis estao onde</text>
+		</question>
+		<question category = "MONSERRATE_49">
+			<text>para onde e que foram os moveis do palacio</text>
+		</question>
+		<question category = "GERAL_7">
+			<text>que aconteceu ao recheio</text>
+		</question>
+		<question category = "MONSERRATE_22">
+			<text>o palacio tambem foi leiloado</text>
+		</question>
+		<question category = "MONSERRATE_79">
+			<text>que tipo de papel decorativo foi usado no restauro</text>
+		</question>
+		<question category = "MONSERRATE_76">
+			<text>que trabalhos de estuque foram feitos na biblioteca</text>
+		</question>
+		<question category = "MONSERRATE_42">
+			<text>a cantaria e o que</text>
+		</question>
+		<question category = "MONSERRATE_41">
+			<text>o que e que e feito em estuque</text>
+		</question>
+		<question category = "MONSERRATE_41">
+			<text>o que e feito em estuque</text>
+		</question>
+		<question category = "MONSERRATE_43">
+			<text>o que e feito em cantaria</text>
+		</question>
+		<question category = "MONSERRATE_46">
+			<text>quem e que era esse saul saraga</text>
+		</question>
+		<question category = "MONSERRATE_45">
+			<text>quem era a familia melo e castro</text>
+		</question>
+		<question category = "MONSERRATE_47">
+			<text>saul saraga viveu alguma vez no palacio</text>
+		</question>
+		<question category = "MONSERRATE_40">
+			<text>o que quer dizer estuque moldado</text>
+		</question>
+		<question category = "MONSERRATE_83">
+			<text>o que e a tecnica do stencil</text>
+		</question>
+		<question category = "MONSERRATE_83">
+			<text>o que quer dizer tecnica do stencil</text>
+		</question>
+		<question category = "MONSERRATE_81">
+			<text>quem foi que restaurou a capela</text>
+		</question>
+		<question category = "MONSERRATE_82">
+			<text>que tipo de tecnica de pintura existe na capela</text>
+		</question>
+		<question category = "MONSERRATE_80">
+			<text>quando foi restaurada a capela</text>
+		</question>
+		<question category = "MONSERRATE_80">
+			<text>a capela foi restaurada quando</text>
+		</question>
+		<question category = "MONSERRATE_80">
+			<text>a capela foi recuperada quando</text>
+		</question>
+		<question category = "MONSERRATE_80">
+			<text>quando e que fizeram obras na capela</text>
+		</question>
+		<question category = "MONSERRATE_38">
+			<text>o que e o estuque</text>
+		</question>
+		<question category = "MONSERRATE_39">
+			<text>quem recuperou os estuques foi quem</text>
+		</question>
+		<question category = "MONSERRATE_85">
+			<text>quem restaurou o fogao</text>
+		</question>
+		<question category = "MONSERRATE_33">
+			<text>quem foram os ultimos habitantes do palacio</text>
+		</question>
+		<question category = "MONSERRATE_33">
+			<text>ha quanto tempo e que nao e habitado</text>
+		</question>
+		<question category = "MONSERRATE_32">
+			<text>que outros visitantes vieram a monserrate</text>
+		</question>
+		<question category = "MONSERRATE_31">
+			<text>so viveram no palacio ingleses</text>
+		</question>
+		<question category = "MONSERRATE_30">
+			<text>quais as obras literarias de beckford</text>
+		</question>
+		<question category = "MONSERRATE_76">
+			<text>que trabalhos de estuque foram executados</text>
+		</question>
+		<question category = "MONSERRATE_35">
+			<text>ainda vivem descendentes dos cook</text>
+		</question>
+		<question category = "MONSERRATE_35">
+			<text>onde vivem os descendentes da familia cook</text>
+		</question>
+		<question category = "MONSERRATE_35">
+			<text>os descendentes da familia cook estao onde</text>
+		</question>
+		<question category = "MONSERRATE_34">
+			<text>quem eram os cook</text>
+		</question>
+		<question category = "MONSERRATE_34">
+			<text>os cook eram quem</text>
+		</question>
+		<question category = "EDGAR_10">
+			<text>tens umas orelhas minusculas</text>
+		</question>
+		<question category = "EDGAR_7">
+			<text>onde e que estao as tuas orelhas</text>
+		</question>
+		<question category = "EDGAR_10">
+			<text>tens orelhas</text>
+		</question>
+		<question category = "NAOVALIDADO_14">
+			<text>estamos em que mes</text>
+		</question>
+		<question category = "NAOVALIDADO_15">
+			<text>falas alemao</text>
+		</question>
+		<question category = "NAOVALIDADO_10">
+			<text>podese fotografar</text>
+		</question>
+		<question category = "NAOVALIDADO_11">
+			<text>vive alguem hoje em dia no palacio</text>
+		</question>
+		<question category = "NAOVALIDADO_16">
+			<text>edgar fala comigo</text>
+		</question>
+		<question category = "EDGAR_16">
+			<text>que questoes sabes responder</text>
+		</question>
+		<question category = "EDGAR_16">
+			<text>o que sabes responder</text>
+		</question>
+		<question category = "MONSERRATE_9">
+			<text>o senhor conheceu o francis cook pessoalmente</text>
+		</question>
+		<question category = "NAOVALIDADO_6">
+			<text>ha algum cafe</text>
+		</question>
+		<question category = "NAOVALIDADO_6">
+			<text>ha aqui algum cafezinho</text>
+		</question>
+		<question category = "MONSERRATE_2">
+			<text>o que e o palacio de monserrate</text>
+		</question>
+		<question category = "EDGAR_3">
+			<text>quando e que vai deixar o seu lugar para alguem mais novo</text>
+		</question>
+		<question category = "NAOVALIDADO_7">
+			<text>qual e que e a morada do palacio de monserrate</text>
+		</question>
+		<question category = "MONSERRATE_52">
+			<text>e possivel visitar o palacio</text>
+		</question>
+		<question category = "NAOVALIDADO_10">
+			<text>podese ver la dentro</text>
+		</question>
+		<question category = "EDGAR_1">
+			<text>queria ter informacoes sobre monserrate</text>
+		</question>
+		<question category = "EDGAR_1">
+			<text>queria informacoes sobre monserrate</text>
+		</question>
+		<question category = "NAOVALIDADO_7">
+			<text>que monumentos gere a parques de sintra</text>
+		</question>
+		<question category = "NAOVALIDADO_8">
+			<text>quando e que ficaste careca</text>
+		</question>
+		<question category = "NAOVALIDADO_8">
+			<text>es careca</text>
+		</question>
+	</questions>
+	<results>
+		<accuracy>0.8368421052631579</accuracy>
+	</results>
+</test>
